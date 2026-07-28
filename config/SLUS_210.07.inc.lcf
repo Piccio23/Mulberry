@@ -17,7 +17,6 @@ SECTIONS
 
 	.main	:
 	{
-		_gp = 0x25f4f0;
 		.	= ALIGN(0x80);
 
         __start = .;

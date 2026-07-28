@@ -49,899 +49,899 @@ segments:
       # project configuration. vram address is used, when reported, in non text
       # sections to calculate the correct align value.
       subsegments:
-        - [0x000080, asm, sdk/sce/ee/crt0]
-        - [0x0002B0, asm, sdk/sce/ee/libgraph/graph001]
-        - [0x000450, asm, sdk/sce/ee/libgraph/graph002]
-        - [0x0004B8, asm, sdk/sce/ee/libgraph/graph003]
-        - [0x0008E0, asm, sdk/sce/ee/libgraph/graph004]
-        - [0x0009A0, asm, sdk/sce/ee/libgraph/graph005]
-        - [0x000A68, asm, sdk/sce/ee/libgraph/graph006]
-        - [0x000C50, asm, sdk/sce/ee/libgraph/graph007]
-        - [0x000D58, asm, sdk/sce/ee/libgraph/graph008]
-        - [0x000E40, asm, sdk/sce/ee/libgraph/graph009]
-        - [0x0010D8, asm, sdk/sce/ee/libgraph/graph010]
-        - [0x001138, asm, sdk/sce/ee/libgraph/graph011]
-        - [0x0011D0, asm, sdk/sce/ee/libgraph/graph012]
-        - [0x0014E8, asm, sdk/sce/ee/libgraph/graph015]
-        - [0x0016D0, asm, sdk/sce/ee/libgraph/graph016]
-        - [0x001810, asm, sdk/sce/ee/libgraph/graph017]
-        - [0x001990, asm, sdk/sce/ee/libgraph/graph018]
-        - [0x002020, asm, sdk/sce/ee/libdma/libdma]
-        - [0x002868, asm, sdk/sce/ee/libdev/devvu1]
-        - [0x002DC0, asm, sdk/sce/ee/libdev/devvif0]
-        - [0x0030F0, asm, sdk/sce/ee/libdev/devvif1]
-        - [0x0034D8, asm, sdk/sce/ee/libpkt/gifpk000]
-        - [0x0034E8, asm, sdk/sce/ee/libpkt/gifpk001]
-        - [0x0034F8, asm, sdk/sce/ee/libpkt/gifpk002]
-        - [0x003550, asm, sdk/sce/ee/libpkt/gifpk005]
-        - [0x0035C8, asm, sdk/sce/ee/libpkt/gifpk007]
-        - [0x003660, asm, sdk/sce/ee/libpkt/gifpk011]
-        - [0x0036D8, asm, sdk/sce/ee/libpkt/gifpk012]
-        - [0x0036F0, asm, sdk/sce/ee/libpkt/gifpk013]
-        - [0x003708, asm, sdk/sce/ee/libpkt/gifpk014]
-        - [0x0037B0, asm, sdk/sce/ee/libpkt/gifpk017]
-        - [0x0037D8, asm, sdk/sce/ee/libvu0/libvu0]
-        - [0x004F20, asm, sdk/sce/ee/libmpeg/mpc]
-        - [0x009F78, asm, sdk/sce/ee/libmpeg/csc]
-        - [0x00A708, asm, sdk/sce/ee/libmpeg/bit]
-        - [0x00A918, asm, sdk/sce/ee/libmpeg/pack]
-        - [0x00B738, asm, sdk/sce/ee/libmpeg/mpeg]
-        - [0x00C380, asm, sdk/sce/ee/libmpeg/init]
-        - [0x00CE88, asm, sdk/sce/ee/libmpeg/defhandler]
-        - [0x00CED8, asm, sdk/sce/ee/libipu/libipu]
-        - [0x00D268, asm, sdk/sce/ee/libipu/ipuinit]
-        - [0x00D518, asm, sdk/sce/ee/libpc/libpc]
-        - [0x00D5C0, asm, sdk/sce/ee/libkernl/klib]
-        - [0x00DE60, asm, sdk/sce/ee/libkernl/glue]
-        - [0x00E230, asm, sdk/sce/ee/libkernl/cache]
-        - [0x00E4B0, asm, sdk/sce/ee/libkernl/intr]
-        - [0x00E6E0, asm, sdk/sce/ee/libkernl/thread]
-        - [0x00EB30, asm, sdk/sce/ee/libkernl/deci2]
-        - [0x00ED68, asm, sdk/sce/ee/libkernl/tty]
-        - [0x00F2B0, asm, sdk/sce/ee/libkernl/kprintf]
-        - [0x00FC68, asm, sdk/sce/ee/libkernl/sifcmd]
-        - [0x010440, asm, sdk/sce/ee/libkernl/sifrpc]
-        - [0x0114D0, asm, sdk/sce/ee/libkernl/filestub]
-        - [0x014BE8, asm, sdk/sce/ee/libkernl/iopheap]
-        - [0x015138, asm, sdk/sce/ee/libkernl/eeloadfile]
-        - [0x015E98, asm, sdk/sce/ee/libkernl/iopreset]
-        - [0x016178, asm, sdk/sce/ee/libkernl/tlbfunc]
-        - [0x0166C0, asm, sdk/sce/ee/libkernl/tlbtrap]
-        - [0x016A20, asm, sdk/sce/ee/libkernl/diei]
-        - [0x016A90, asm, sdk/sce/ee/libkernl/initsys]
-        - [0x016D20, asm, sdk/sce/ee/libkernl/libosd]
-        - [0x016EA0, asm, sdk/sce/ee/libkernl/exit]
-        - [0x017140, asm, sdk/sce/ee/libkernl/alarm]
-        - [0x017280, asm, sdk/sce/ee/libkernl/timer]
-        - [0x0185E8, asm, sdk/sce/ee/libkernl/timeralarm]
-        - [0x0189D8, asm, sdk/sce/ee/libkernl/iopnotify]
-        - [0x018C38, asm, sdk/sce/ee/libpad/libpad]
-        - [0x01A0B8, asm, sdk/sce/ee/libsdr/sdr_main]
-        - [0x01A598, asm, sdk/sce/ee/libcdvd/cdvd000]
-        - [0x01BAF0, asm, sdk/sce/ee/libcdvd/cdvd005]
-        - [0x01BCD0, asm, sdk/sce/ee/libcdvd/cdvd036]
-        - [0x01BDA0, asm, sdk/sce/ee/libcdvd/cdvd039]
-        - [0x01BE98, asm, sdk/sce/ee/libcdvd/cdvd046]
-        - [0x01BF88, asm, sdk/sce/ee/libcdvd/cdvd047]
-        - [0x01C468, asm, sdk/sce/ee/libmc/libmc]
-        - [0x01DC68, asm, sdk/sce/ee/gcc/ee/lib/libm/e_pow]
-        - [0x01EBB8, asm, sdk/sce/ee/gcc/ee/lib/libm/e_sqrt]
-        - [0x01EED8, asm, sdk/sce/ee/gcc/ee/lib/libm/ef_acos]
-        - [0x01F300, asm, sdk/sce/ee/gcc/ee/lib/libm/ef_asin]
-        - [0x01F6A0, asm, sdk/sce/ee/gcc/ee/lib/libm/ef_atan2]
-        - [0x01F880, asm, sdk/sce/ee/gcc/ee/lib/libm/ef_powf]
-        - [0x020060, asm, sdk/sce/ee/gcc/ee/lib/libm/ef_rem_pio2]
-        - [0x020410, asm, sdk/sce/ee/gcc/ee/lib/libm/ef_sqrt]
-        - [0x0204E0, asm, sdk/sce/ee/gcc/ee/lib/libm/kf_cos]
-        - [0x020630, asm, sdk/sce/ee/gcc/ee/lib/libm/kf_rem_pio2]
-        - [0x020E98, asm, sdk/sce/ee/gcc/ee/lib/libm/kf_sin]
-        - [0x020FA0, asm, sdk/sce/ee/gcc/ee/lib/libm/kf_tan]
-        - [0x021228, asm, sdk/sce/ee/gcc/ee/lib/libm/s_copysign]
-        - [0x021270, asm, sdk/sce/ee/gcc/ee/lib/libm/s_fabs]
-        - [0x0212A8, asm, sdk/sce/ee/gcc/ee/lib/libm/s_isinf]
-        - [0x0212F0, asm, sdk/sce/ee/gcc/ee/lib/libm/s_isnan]
-        - [0x021330, asm, sdk/sce/ee/gcc/ee/lib/libm/s_scalbn]
-        - [0x021518, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_atan]
-        - [0x0217A8, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_copysign]
-        - [0x0217E8, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_cos]
-        - [0x0218C0, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_fabs]
-        - [0x0218E8, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_floor]
-        - [0x0219C0, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_scalbn]
-        - [0x021A88, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_sin]
-        - [0x021B70, asm, sdk/sce/ee/gcc/ee/lib/libm/sf_tan]
-        - [0x021BE8, asm, sdk/sce/ee/gcc/ee/lib/libm/w_pow]
-        - [0x021C00, asm, sdk/sce/ee/gcc/ee/lib/libm/wf_acos]
-        - [0x021C18, asm, sdk/sce/ee/gcc/ee/lib/libm/wf_asin]
-        - [0x021C30, asm, sdk/sce/ee/gcc/ee/lib/libm/wf_atan2]
-        - [0x021C48, asm, sdk/sce/ee/gcc/ee/lib/libm/wf_pow]
-        - [0x021C60, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_muldi3]
-        - [0x021CD8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_divdi3]
-        - [0x022370, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_moddi3]
-        - [0x022A00, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_udivdi3]
-        - [0x022F80, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_umoddi3]
-        - [0x0234E8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_floatdidf]
-        - [0x023590, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_floatdisf]
-        - [0x023678, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fixunsdfdi]
-        - [0x023790, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fixdfdi]
-        - [0x023808, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fixunssfdi]
-        - [0x023930, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_pack_sf]
-        - [0x0239E8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_unpack_sf]
-        - [0x023A48, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_make_sf]
-        - [0x023A78, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_sf_to_df]
-        - [0x023AB8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_pack_df]
-        - [0x023B90, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_unpack_df]
-        - [0x023C50, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_addsub_df]
-        - [0x023F70, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_mul_df]
-        - [0x0241F8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_div_df]
-        - [0x024338, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fpcmp_parts_df]
-        - [0x024458, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_compare_df]
-        - [0x0244A8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_si_to_df]
-        - [0x024560, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_df_to_si]
-        - [0x024600, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_make_df]
-        - [0x024630, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_df_to_sf]
-        - [0x024688, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_df_to_usi]
-        - [0x024728, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/abs]
-        - [0x024740, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/atof]
-        - [0x024758, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/atoi]
-        - [0x024780, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/atol]
-        - [0x0247A0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/callocr]
-        - [0x024858, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/closer]
-        - [0x0248B0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/dtoa]
-        - [0x025D48, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/errno]
-        - [0x025D58, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/exit]
-        - [0x025E08, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fflush]
-        - [0x025F20, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/findfp]
-        - [0x0261C0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fread]
-        - [0x0262E0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/freer]
-        - [0x026748, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fstatr]
-        - [0x0267A8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fvwrite]
-        - [0x026B88, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fwalk]
-        - [0x026C20, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/index]
-        - [0x026C38, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/locale]
-        - [0x026D20, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/lseekr]
-        - [0x026D80, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/makebuf]
-        - [0x026ED8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/malloc]
-        - [0x026F78, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mallocr]
-        - [0x0278F8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mbtowc_r]
-        - [0x027930, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memchr]
-        - [0x027A10, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memcmp]
-        - [0x027AA8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memcpy]
-        - [0x027B58, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memmove]
-        - [0x027C60, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memset]
-        - [0x027D20, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mlock]
-        - [0x027DF0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mprec]
-        - [0x028E08, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/printf]
-        - [0x028ED8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/rand]
-        - [0x028F58, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/readr]
-        - [0x028FB8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/reallocr]
-        - [0x029558, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/refill]
-        - [0x029710, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/sbrkr]
-        - [0x029768, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/sprintf]
-        - [0x029880, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/sscanf]
-        - [0x029930, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/stdio]
-        - [0x029AA0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strcat]
-        - [0x029BD0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strchr]
-        - [0x029D60, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strcmp]
-        - [0x029EA8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strcpy]
-        - [0x029FC0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strlen]
-        - [0x02A0F8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strncmp]
-        - [0x02A2B0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strncpy]
-        - [0x02A470, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strrchr]
-        - [0x02A4C0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtod]
-        - [0x02B428, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtok]
-        - [0x02B448, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtok_r]
-        - [0x02B510, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtol]
-        - [0x02B778, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtoul]
-        - [0x02B9D8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/toupper]
-        - [0x02B9F8, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/ungetc]
-        - [0x02BC68, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfprintf]
-        - [0x02D6F0, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfscanf]
-        - [0x02E480, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vsprintf]
-        - [0x02E530, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/writer]
-        - [0x02E590, asm, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/wsetup]
-        - [0x02E6A0, asm, cs4/Seimei/src/AniFile]
-        - [0x02EA20, asm, cs4/Seimei/src/Anim]
-        - [0x032110, asm, cs4/Seimei/src/Camera]
-        - [0x034930, asm, cs4/Seimei/src/Debug]
-        - [0x034D10, asm, cs4/Seimei/src/Draw]
-        - [0x038710, asm, cs4/Seimei/src/File]
-        - [0x038D00, asm, cs4/Seimei/src/Game]
-        - [0x039A00, asm, cs4/Seimei/src/Load]
-        - [0x03A380, asm, cs4/Seimei/src/Main]
-        - [0x03AFE0, asm, cs4/Seimei/src/MathUtil]
-        - [0x03BCE0, asm, cs4/Seimei/src/MdlLink]
-        - [0x03BDC0, asm, cs4/Seimei/src/Mic]
-        - [0x03BEE0, asm, cs4/Seimei/src/Model]
-        - [0x03D1A0, asm, cs4/Seimei/src/Pad]
-        - [0x03DF80, asm, cs4/Seimei/src/Sprite]
-        - [0x03E9A0, asm, cs4/Seimei/src/Tex]
-        - [0x03FC40, asm, cs4/Seimei/src/Vmd]
-        - [0x0414C0, asm, cs4/Seimei/src/Vram]
-        - [0x041B90, asm, cs4/Seimei/src/Vu1]
-        - [0x041E70, asm, cs4/Seimei/fslib/lib/fslibmc]
-        - [0x046A00, asm, cs4/Seimei/fslib/lib/fslibpa2]
-        - [0x047A20, asm, cs4/Seimei/fslib/lib/fslibsd]
-        - [0x0484C0, asm, cs4/Seimei/fslib/lib/fslibsdsynth]
-        - [0x04AA50, asm, cs4/Seimei/fslib/lib/fslibvu0]
-        - [0x04ABC0, asm, cs4/Seimei/src/Memory]
-        - [0x04B150, asm, cs4/Seimei/src/Map]
-        - [0x04FBC0, asm, cs4/Seimei/src/String]
-        - [0x04FD50, asm, cs4/Seimei/src/My]
-        - [0x053740, asm, cs4/Seimei/src/MyAct]
-        - [0x056F20, asm, cs4/Seimei/src/MyThk]
-        - [0x059480, asm, cs4/Seimei/fslib/lib/fslibhit]
-        - [0x0594F0, asm, cs4/Seimei/fslib/lib/hit_basic]
-        - [0x059650, asm, cs4/Seimei/fslib/lib/hit_calc]
-        - [0x059720, asm, cs4/Seimei/fslib/lib/hit_info]
-        - [0x059790, asm, cs4/Seimei/src/Mi2]
-        - [0x059860, asm, cs4/Seimei/src/CharHit]
-        - [0x059C60, asm, cs4/Seimei/src/Dss]
-        - [0x05ACB0, asm, cs4/Seimei/src/Damage]
-        - [0x05B3B0, asm, cs4/Seimei/src/Hmd]
-        - [0x05E360, asm, cs4/Seimei/src/Binder]
-        - [0x05E980, asm, cs4/Seimei/src/Ene]
-        - [0x060DF0, asm, cs4/Seimei/src/EneAct]
-        - [0x062F40, asm, cs4/Seimei/src/EneThk]
-        - [0x0649E0, asm, cs4/Seimei/src/PointLight]
-        - [0x065370, asm, cs4/Seimei/lib/libaio]
-        - [0x0683E0, asm, cs4/Seimei/src/Scene]
-        - [0x068BF0, asm, cs4/Seimei/src/ShadowVolume]
-        - [0x068E00, asm, cs4/Seimei/src/DepthAlpha]
-        - [0x069460, asm, cs4/Seimei/src/ClothSimulator]
-        - [0x069930, asm, cs4/Seimei/src/Rta]
-        - [0x06B9B0, asm, cs4/Seimei/src/rta_util]
-        - [0x06BB00, asm, cs4/Seimei/src/Script]
-        - [0x06F370, asm, cs4/Seimei/fslib/lib/fslibscr]
-        - [0x0709B0, asm, cs4/Seimei/src/MyDamage]
-        - [0x0710E0, asm, cs4/Seimei/src/EneDamage]
-        - [0x072120, asm, unklib_001720A0] # GCC TU
-        - [0x072360, asm, cs4/Seimei/fslib/lib/FsFont]
-        - [0x0747D0, asm, cs4/Seimei/fslib/lib/FsFontDraw]
-        - [0x076C20, asm, cs4/Seimei/fslib/lib/FsFontRect]
-        - [0x076C40, asm, cs4/Seimei/fslib/lib/FsFontReplace]
-        - [0x076F20, asm, cs4/Seimei/src/Font]
-        - [0x077A10, asm, cs4/Seimei/src/Dizzy]
-        - [0x0796C0, asm, cs4/Seimei/src/SandEffect]
-        - [0x0796E0, asm, cs4/Seimei/src/Drama]
-        - [0x07B6A0, asm, cs4/Seimei/src/Msg]
-        - [0x07CA90, asm, cs4/Seimei/src/KuonMsg]
-        - [0x07D140, asm, cs4/Seimei/src/List]
-        - [0x07D920, asm, cs4/Seimei/src/util]
-        - [0x07DAE0, asm, cs4/Seimei/src/FsMsg]
-        - [0x07DBC0, asm, cs4/Seimei/src/TmpMenu]
-        - [0x07DFB0, asm, cs4/Seimei/src/Object]
-        - [0x0807A0, asm, cs4/Seimei/src/Fade]
-        - [0x081180, asm, cs4/Seimei/src/Blast]
-        - [0x081760, asm, cs4/Seimei/src/Light]
-        - [0x081910, asm, cs4/Seimei/src/Cdvd]
-        - [0x0820E0, asm, cs4/Seimei/src/Filter]
-        - [0x085190, asm, cs4/Seimei/src/msg_util]
-        - [0x085610, asm, cs4/Seimei/src/DrawOT]
-        - [0x085FA0, asm, cs4/Seimei/src/ItemMng]
-        - [0x087040, asm, cs4/Seimei/src/Title]
-        - [0x08DDB0, asm, cs4/Seimei/src/Spirit]
-        - [0x08DE80, asm, cs4/Seimei/src/E016Act]
-        - [0x08E2E0, asm, cs4/Seimei/src/E016Thk]
-        - [0x08E800, asm, cs4/Seimei/src/E011Act]
-        - [0x08EEB0, asm, cs4/Seimei/src/E011Thk]
-        - [0x08F770, asm, cs4/Seimei/src/Peep]
-        - [0x090F60, asm, cs4/Seimei/src/P007Act]
-        - [0x0910A0, asm, cs4/Seimei/src/P007Thk]
-        - [0x091170, asm, cs4/Seimei/src/EtcEvent]
-        - [0x091700, asm, cs4/Seimei/src/FrontEnd/FrontEnd_Card]
-        - [0x093A10, asm, cs4/Seimei/src/P008Act]
-        - [0x093C60, asm, cs4/Seimei/src/Param]
-        - [0x093CE0, asm, cs4/Seimei/src/P004Act]
-        - [0x094120, asm, cs4/Seimei/src/P004Thk]
-        - [0x094400, asm, cs4/Seimei/src/E022Act]
-        - [0x094EF0, asm, cs4/Seimei/src/E022Thk]
-        - [0x095750, asm, cs4/Seimei/src/Movie]
-        - [0x095D20, asm, unklib_00195CA0]
-        - [0x09BBE0, asm, cs4/Seimei/src/MsgFile]
-        - [0x09C0F0, asm, cs4/Seimei/src/MemoryCard]
-        - [0x09DF70, asm, cs4/Seimei/src/MCIconData]
-        - [0x09DF90, asm, cs4/Seimei/src/MultiStm]
-        - [0x09E1E0, asm, unklib_0019E160]
-        - [0x0A1510, asm, cs4/Seimei/src/Mirror]
-        - [0x0A23B0, asm, cs4/Seimei/src/Riddle]
-        - [0x0A4F80, asm, cs4/Seimei/src/E031Act]
-        - [0x0A4F90, asm, cs4/Seimei/src/MovePath]
-        - [0x0A53F0, asm, cs4/Seimei/src/P006Thk]
-        - [0x0A54D0, asm, cs4/Seimei/src/P027Act]
-        - [0x0A5610, asm, cs4/Seimei/src/P027Thk]
-        - [0x0A5AE0, asm, cs4/Seimei/src/P018Act]
-        - [0x0A5EA0, asm, cs4/Seimei/src/P018Thk]
-        - [0x0A5F50, asm, cs4/Seimei/src/Miz]
-        - [0x0A6060, asm, cs4/Seimei/src/E032Act]
-        - [0x0A6440, asm, cs4/Seimei/src/E032Thk]
-        - [0x0A6630, asm, cs4/Seimei/src/P019Act]
-        - [0x0A69F0, asm, cs4/Seimei/src/P019Thk]
-        - [0x0A6B20, asm, cs4/Seimei/src/P030Act]
-        - [0x0A6E20, asm, cs4/Seimei/src/P030Thk]
-        - [0x0A6E40, asm, cs4/Seimei/src/TexEffect]
-        - [0x0A8580, asm, cs4/Seimei/src/P020Act]
-        - [0x0A89A0, asm, cs4/Seimei/src/E042Act]
-        - [0x0A8DD0, asm, cs4/Seimei/src/Sound/Sec]
-        - [0x0A9290, asm, cs4/Seimei/src/Sound/Snd]
-        - [0x0AA110, asm, cs4/Seimei/src/Sound/SndReverb]
-        - [0x0AA640, asm, cs4/Seimei/src/Sound/SndSq]
-        - [0x0AB190, asm, cs4/Seimei/src/Sound/SndVoice]
-        - [0x0AC990, asm, cs4/Seimei/src/Sound/VagStm]
-        - [0x0AE600, asm, cs4/Seimei/src/sfx/PtclMng]
-        - [0x0BB900, asm, cs4/Seimei/src/sfx/Sfx]
-        - [0x0BC750, asm, cs4/Seimei/src/sfx/SfxCommon]
-        - [0x0BF400, asm, cs4/Seimei/src/sfx/SfxDebug_TmrGraph]
-        - [0x0BF500, asm, cs4/Seimei/src/sfx/SfxDomanString]
-        - [0x0C00B0, asm, cs4/Seimei/src/sfx/SfxDraw]
-        - [0x0C3BD0, asm, cs4/Seimei/src/sfx/SfxFileIO]
-        - [0x0C42A0, asm, cs4/Seimei/src/sfx/SfxFlicker]
-        - [0x0C5C50, asm, cs4/Seimei/src/sfx/SfxFormat]
-        - [0x0C6B60, asm, cs4/Seimei/src/sfx/SfxMng]
-        - [0x0CE240, asm, cs4/Seimei/src/sfx/SfxModel]
-        - [0x0CEBE0, asm, cs4/Seimei/src/sfx/SfxPLight]
-        - [0x0CF7F0, asm, cs4/Seimei/src/sfx/SfxPostEffect]
-        - [0x0CFDA0, asm, cs4/Seimei/src/sfx/SfxTracer]
-        - [0x0D0F90, asm, cs4/Seimei/src/sfx/StaticList]
-        - [0x0D14E0, asm, cs4/Seimei/src/menu/KnMenuModel]
-        - [0x0D61F0, asm, cs4/Seimei/src/menu/KnMenuWind]
-        - [0x0D66D0, asm, cs4/Seimei/src/menu/KuonMenu]
-        - [0x0D8500, asm, cs4/Seimei/src/menu/Menu]
-        - [0x0D9620, asm, cs4/Seimei/src/menu/menu_util]
-        - [0x0EBBE0, asm, cs4/Seimei/src/menu/MenuCtrl]
-        - [0x0EE080, asm, cs4/Seimei/src/menu/MenuItem]
-        - [0x0F1B60, asm, cs4/Seimei/src/MiniGame/GameFunc]
-        - [0x0F55C0, asm, cs4/Seimei/src/MiniGame/MGAnime]
-        - [0x0F7C70, asm, cs4/Seimei/src/MiniGame/MGFont]
-        - [0x0F7DC0, asm, cs4/Seimei/src/MiniGame/MGInit]
-        - [0x0F9AB0, asm, cs4/Seimei/src/MiniGame/MGLoad]
-        - [0x0F9CD0, asm, cs4/Seimei/src/MiniGame/MGPad]
-        - [0x0FE8D0, asm, cs4/Seimei/src/MiniGame/MGSprite]
-        - [0x0FF080, asm, cs4/Seimei/src/MiniGame/MiniGame]
-        - [0x0FF8D0, asm, cs4/Seimei/src/E035Act]
-        - [0x0FFBB0, asm, cs4/Seimei/src/E035Thk]
-        - [0x0FFD70, asm, cs4/Seimei/src/E034Act]
-        - [0x0FFF70, asm, cs4/Seimei/src/E034Thk]
-        - [0x100130, asm, cs4/Seimei/src/P025Act]
-        - [0x100710, asm, cs4/Seimei/src/P025Thk]
-        - [0x100920, asm, cs4/Seimei/src/E003Act]
-        - [0x100FD0, asm, cs4/Seimei/src/E003Thk]
-        - [0x101890, asm, cs4/Seimei/src/E028Act]
-        - [0x1018A0, asm, cs4/Seimei/src/E033Act]
-        - [0x101960, asm, cs4/Seimei/src/E036Act]
-        - [0x101970, asm, cs4/Seimei/src/E037Act]
-        - [0x101980, asm, cs4/Seimei/src/MiniGame/TMKSpriteInit]
-        - [0x104470, asm, cs4/Seimei/src/sfx/SfxBugs]
-        - [0x105150, asm, cs4/Seimei/src/E044Act]
-        - [0x105560, asm, cs4/Seimei/src/sfx/SfxFog]
-        - [0x105A00, asm, cs4/Seimei/fslib/lib/fsspummng]
-        - [0x106520, asm, cs4/Seimei/src/Event]
-        - [0x106A90, asm, cs4/Seimei/src/Event0031]
-        - [0x107380, asm, cs4/Seimei/src/Event0051]
-        - [0x107E90, asm, cs4/Seimei/src/MiniGame/sgh/sgh]
-        - [0x107EA0, asm, cs4/Seimei/src/MiniGame/sgh/sghDice]
-        - [0x108860, asm, cs4/Seimei/src/MiniGame/sgh/sghDraw]
-        - [0x108AD0, asm, cs4/Seimei/src/MiniGame/sgh/sghEne]
-        - [0x108BD0, asm, cs4/Seimei/src/MiniGame/sgh/sghEneThk]
-        - [0x10A890, asm, cs4/Seimei/src/MiniGame/sgh/sghKoma]
-        - [0x10BEA0, asm, cs4/Seimei/src/MiniGame/sgh/sghMain]
-        - [0x10BFE0, asm, cs4/Seimei/src/MiniGame/sgh/sghMap]
-        - [0x10C9D0, asm, cs4/Seimei/src/MiniGame/sgh/sghMarker]
-        - [0x10CBF0, asm, cs4/Seimei/src/MiniGame/sgh/sghMode]
-        - [0x10DCB0, asm, cs4/Seimei/src/MiniGame/sgh/sghMsg]
-        - [0x10EA40, asm, cs4/Seimei/src/MiniGame/sgh/sghPad]
-        - [0x10F7D0, asm, cs4/Seimei/src/MiniGame/sgh/sghSprite]
-        - [0x10FC50, asm, cs4/Seimei/src/MiniGame/sgh/sghTime]
-        - [0x10FC70, asm, cs4/Seimei/src/Event0035]
-        - [0x110390, asm, cs4/Seimei/src/Event0034]
-        - [0x1107C0, asm, cs4/Seimei/src/Event0033]
-        - [0x110F20, asm, cs4/Seimei/src/Event0040]
-        - [0x111470, asm, cs4/Seimei/src/Event0010]
-        - [0x112490, asm, cs4/Seimei/src/Event0041]
-        - [0x1126A0, asm, cs4/Seimei/src/Event0008]
-        - [0x112A80, asm, cs4/Seimei/src/Event0009]
-        - [0x112B40, asm, cs4/Seimei/src/menu/MenuTD]
-        - [0x113920, asm, cs4/Seimei/src/Event0083]
-        - [0x113B10, asm, cs4/Seimei/src/E041Act]
-        - [0x113BD0, asm, cs4/Seimei/src/Event0002]
-        - [0x114110, asm, cs4/Seimei/src/Event0006]
-        - [0x115080, asm, cs4/Seimei/src/sfx/SfxScriptIF]
-        - [0x115300, asm, cs4/Seimei/src/Event0032]
-        - [0x115610, asm, cs4/Seimei/src/E023Act]
-        - [0x115620, asm, cs4/Seimei/src/Event0001]
-        - [0x1157F0, asm, cs4/Seimei/src/P036Act]
-        - [0x115910, asm, cs4/Seimei/src/Event0085]
-        - [0x115B70, asm, unklib_00215AF0]
+        - [0x000080, asmtu, sdk/sce/ee/crt0]
+        - [0x0002B0, asmtu, sdk/sce/ee/libgraph/graph001]
+        - [0x000450, asmtu, sdk/sce/ee/libgraph/graph002]
+        - [0x0004B8, asmtu, sdk/sce/ee/libgraph/graph003]
+        - [0x0008E0, asmtu, sdk/sce/ee/libgraph/graph004]
+        - [0x0009A0, asmtu, sdk/sce/ee/libgraph/graph005]
+        - [0x000A68, asmtu, sdk/sce/ee/libgraph/graph006]
+        - [0x000C50, asmtu, sdk/sce/ee/libgraph/graph007]
+        - [0x000D58, asmtu, sdk/sce/ee/libgraph/graph008]
+        - [0x000E40, asmtu, sdk/sce/ee/libgraph/graph009]
+        - [0x0010D8, asmtu, sdk/sce/ee/libgraph/graph010]
+        - [0x001138, asmtu, sdk/sce/ee/libgraph/graph011]
+        - [0x0011D0, asmtu, sdk/sce/ee/libgraph/graph012]
+        - [0x0014E8, asmtu, sdk/sce/ee/libgraph/graph015]
+        - [0x0016D0, asmtu, sdk/sce/ee/libgraph/graph016]
+        - [0x001810, asmtu, sdk/sce/ee/libgraph/graph017]
+        - [0x001990, asmtu, sdk/sce/ee/libgraph/graph018]
+        - [0x002020, asmtu, sdk/sce/ee/libdma/libdma]
+        - [0x002868, asmtu, sdk/sce/ee/libdev/devvu1]
+        - [0x002DC0, asmtu, sdk/sce/ee/libdev/devvif0]
+        - [0x0030F0, asmtu, sdk/sce/ee/libdev/devvif1]
+        - [0x0034D8, asmtu, sdk/sce/ee/libpkt/gifpk000]
+        - [0x0034E8, asmtu, sdk/sce/ee/libpkt/gifpk001]
+        - [0x0034F8, asmtu, sdk/sce/ee/libpkt/gifpk002]
+        - [0x003550, asmtu, sdk/sce/ee/libpkt/gifpk005]
+        - [0x0035C8, asmtu, sdk/sce/ee/libpkt/gifpk007]
+        - [0x003660, asmtu, sdk/sce/ee/libpkt/gifpk011]
+        - [0x0036D8, asmtu, sdk/sce/ee/libpkt/gifpk012]
+        - [0x0036F0, asmtu, sdk/sce/ee/libpkt/gifpk013]
+        - [0x003708, asmtu, sdk/sce/ee/libpkt/gifpk014]
+        - [0x0037B0, asmtu, sdk/sce/ee/libpkt/gifpk017]
+        - [0x0037D8, asmtu, sdk/sce/ee/libvu0/libvu0]
+        - [0x004F20, asmtu, sdk/sce/ee/libmpeg/mpc]
+        - [0x009F78, asmtu, sdk/sce/ee/libmpeg/csc]
+        - [0x00A708, asmtu, sdk/sce/ee/libmpeg/bit]
+        - [0x00A918, asmtu, sdk/sce/ee/libmpeg/pack]
+        - [0x00B738, asmtu, sdk/sce/ee/libmpeg/mpeg]
+        - [0x00C380, asmtu, sdk/sce/ee/libmpeg/init]
+        - [0x00CE88, asmtu, sdk/sce/ee/libmpeg/defhandler]
+        - [0x00CED8, asmtu, sdk/sce/ee/libipu/libipu]
+        - [0x00D268, asmtu, sdk/sce/ee/libipu/ipuinit]
+        - [0x00D518, asmtu, sdk/sce/ee/libpc/libpc]
+        - [0x00D5C0, asmtu, sdk/sce/ee/libkernl/klib]
+        - [0x00DE60, asmtu, sdk/sce/ee/libkernl/glue]
+        - [0x00E230, asmtu, sdk/sce/ee/libkernl/cache]
+        - [0x00E4B0, asmtu, sdk/sce/ee/libkernl/intr]
+        - [0x00E6E0, asmtu, sdk/sce/ee/libkernl/thread]
+        - [0x00EB30, asmtu, sdk/sce/ee/libkernl/deci2]
+        - [0x00ED68, asmtu, sdk/sce/ee/libkernl/tty]
+        - [0x00F2B0, asmtu, sdk/sce/ee/libkernl/kprintf]
+        - [0x00FC68, asmtu, sdk/sce/ee/libkernl/sifcmd]
+        - [0x010440, asmtu, sdk/sce/ee/libkernl/sifrpc]
+        - [0x0114D0, asmtu, sdk/sce/ee/libkernl/filestub]
+        - [0x014BE8, asmtu, sdk/sce/ee/libkernl/iopheap]
+        - [0x015138, asmtu, sdk/sce/ee/libkernl/eeloadfile]
+        - [0x015E98, asmtu, sdk/sce/ee/libkernl/iopreset]
+        - [0x016178, asmtu, sdk/sce/ee/libkernl/tlbfunc]
+        - [0x0166C0, asmtu, sdk/sce/ee/libkernl/tlbtrap]
+        - [0x016A20, asmtu, sdk/sce/ee/libkernl/diei]
+        - [0x016A90, asmtu, sdk/sce/ee/libkernl/initsys]
+        - [0x016D20, asmtu, sdk/sce/ee/libkernl/libosd]
+        - [0x016EA0, asmtu, sdk/sce/ee/libkernl/exit]
+        - [0x017140, asmtu, sdk/sce/ee/libkernl/alarm]
+        - [0x017280, asmtu, sdk/sce/ee/libkernl/timer]
+        - [0x0185E8, asmtu, sdk/sce/ee/libkernl/timeralarm]
+        - [0x0189D8, asmtu, sdk/sce/ee/libkernl/iopnotify]
+        - [0x018C38, asmtu, sdk/sce/ee/libpad/libpad]
+        - [0x01A0B8, asmtu, sdk/sce/ee/libsdr/sdr_main]
+        - [0x01A598, asmtu, sdk/sce/ee/libcdvd/cdvd000]
+        - [0x01BAF0, asmtu, sdk/sce/ee/libcdvd/cdvd005]
+        - [0x01BCD0, asmtu, sdk/sce/ee/libcdvd/cdvd036]
+        - [0x01BDA0, asmtu, sdk/sce/ee/libcdvd/cdvd039]
+        - [0x01BE98, asmtu, sdk/sce/ee/libcdvd/cdvd046]
+        - [0x01BF88, asmtu, sdk/sce/ee/libcdvd/cdvd047]
+        - [0x01C468, asmtu, sdk/sce/ee/libmc/libmc]
+        - [0x01DC68, asmtu, sdk/sce/ee/gcc/ee/lib/libm/e_pow]
+        - [0x01EBB8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/e_sqrt]
+        - [0x01EED8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/ef_acos]
+        - [0x01F300, asmtu, sdk/sce/ee/gcc/ee/lib/libm/ef_asin]
+        - [0x01F6A0, asmtu, sdk/sce/ee/gcc/ee/lib/libm/ef_atan2]
+        - [0x01F880, asmtu, sdk/sce/ee/gcc/ee/lib/libm/ef_powf]
+        - [0x020060, asmtu, sdk/sce/ee/gcc/ee/lib/libm/ef_rem_pio2]
+        - [0x020410, asmtu, sdk/sce/ee/gcc/ee/lib/libm/ef_sqrt]
+        - [0x0204E0, asmtu, sdk/sce/ee/gcc/ee/lib/libm/kf_cos]
+        - [0x020630, asmtu, sdk/sce/ee/gcc/ee/lib/libm/kf_rem_pio2]
+        - [0x020E98, asmtu, sdk/sce/ee/gcc/ee/lib/libm/kf_sin]
+        - [0x020FA0, asmtu, sdk/sce/ee/gcc/ee/lib/libm/kf_tan]
+        - [0x021228, asmtu, sdk/sce/ee/gcc/ee/lib/libm/s_copysign]
+        - [0x021270, asmtu, sdk/sce/ee/gcc/ee/lib/libm/s_fabs]
+        - [0x0212A8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/s_isinf]
+        - [0x0212F0, asmtu, sdk/sce/ee/gcc/ee/lib/libm/s_isnan]
+        - [0x021330, asmtu, sdk/sce/ee/gcc/ee/lib/libm/s_scalbn]
+        - [0x021518, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_atan]
+        - [0x0217A8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_copysign]
+        - [0x0217E8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_cos]
+        - [0x0218C0, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_fabs]
+        - [0x0218E8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_floor]
+        - [0x0219C0, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_scalbn]
+        - [0x021A88, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_sin]
+        - [0x021B70, asmtu, sdk/sce/ee/gcc/ee/lib/libm/sf_tan]
+        - [0x021BE8, asmtu, sdk/sce/ee/gcc/ee/lib/libm/w_pow]
+        - [0x021C00, asmtu, sdk/sce/ee/gcc/ee/lib/libm/wf_acos]
+        - [0x021C18, asmtu, sdk/sce/ee/gcc/ee/lib/libm/wf_asin]
+        - [0x021C30, asmtu, sdk/sce/ee/gcc/ee/lib/libm/wf_atan2]
+        - [0x021C48, asmtu, sdk/sce/ee/gcc/ee/lib/libm/wf_pow]
+        - [0x021C60, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_muldi3]
+        - [0x021CD8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_divdi3]
+        - [0x022370, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_moddi3]
+        - [0x022A00, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_udivdi3]
+        - [0x022F80, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_umoddi3]
+        - [0x0234E8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_floatdidf]
+        - [0x023590, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_floatdisf]
+        - [0x023678, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fixunsdfdi]
+        - [0x023790, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fixdfdi]
+        - [0x023808, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fixunssfdi]
+        - [0x023930, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_pack_sf]
+        - [0x0239E8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_unpack_sf]
+        - [0x023A48, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_make_sf]
+        - [0x023A78, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_sf_to_df]
+        - [0x023AB8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_pack_df]
+        - [0x023B90, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_unpack_df]
+        - [0x023C50, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_addsub_df]
+        - [0x023F70, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_mul_df]
+        - [0x0241F8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_div_df]
+        - [0x024338, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_fpcmp_parts_df]
+        - [0x024458, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_compare_df]
+        - [0x0244A8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_si_to_df]
+        - [0x024560, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_df_to_si]
+        - [0x024600, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_make_df]
+        - [0x024630, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_df_to_sf]
+        - [0x024688, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_df_to_usi]
+        - [0x024728, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/abs]
+        - [0x024740, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/atof]
+        - [0x024758, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/atoi]
+        - [0x024780, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/atol]
+        - [0x0247A0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/callocr]
+        - [0x024858, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/closer]
+        - [0x0248B0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/dtoa]
+        - [0x025D48, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/errno]
+        - [0x025D58, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/exit]
+        - [0x025E08, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fflush]
+        - [0x025F20, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/findfp]
+        - [0x0261C0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fread]
+        - [0x0262E0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/freer]
+        - [0x026748, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fstatr]
+        - [0x0267A8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fvwrite]
+        - [0x026B88, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/fwalk]
+        - [0x026C20, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/index]
+        - [0x026C38, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/locale]
+        - [0x026D20, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/lseekr]
+        - [0x026D80, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/makebuf]
+        - [0x026ED8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/malloc]
+        - [0x026F78, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mallocr]
+        - [0x0278F8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mbtowc_r]
+        - [0x027930, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memchr]
+        - [0x027A10, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memcmp]
+        - [0x027AA8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memcpy]
+        - [0x027B58, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memmove]
+        - [0x027C60, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/memset]
+        - [0x027D20, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mlock]
+        - [0x027DF0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mprec]
+        - [0x028E08, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/printf]
+        - [0x028ED8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/rand]
+        - [0x028F58, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/readr]
+        - [0x028FB8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/reallocr]
+        - [0x029558, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/refill]
+        - [0x029710, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/sbrkr]
+        - [0x029768, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/sprintf]
+        - [0x029880, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/sscanf]
+        - [0x029930, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/stdio]
+        - [0x029AA0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strcat]
+        - [0x029BD0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strchr]
+        - [0x029D60, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strcmp]
+        - [0x029EA8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strcpy]
+        - [0x029FC0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strlen]
+        - [0x02A0F8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strncmp]
+        - [0x02A2B0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strncpy]
+        - [0x02A470, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strrchr]
+        - [0x02A4C0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtod]
+        - [0x02B428, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtok]
+        - [0x02B448, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtok_r]
+        - [0x02B510, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtol]
+        - [0x02B778, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtoul]
+        - [0x02B9D8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/toupper]
+        - [0x02B9F8, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/ungetc]
+        - [0x02BC68, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfprintf]
+        - [0x02D6F0, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfscanf]
+        - [0x02E480, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vsprintf]
+        - [0x02E530, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/writer]
+        - [0x02E590, asmtu, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/wsetup]
+        - [0x02E6A0, asmtu, cs4/Seimei/src/AniFile]
+        - [0x02EA20, asmtu, cs4/Seimei/src/Anim]
+        - [0x032110, asmtu, cs4/Seimei/src/Camera]
+        - [0x034930, asmtu, cs4/Seimei/src/Debug]
+        - [0x034D10, asmtu, cs4/Seimei/src/Draw]
+        - [0x038710, asmtu, cs4/Seimei/src/File]
+        - [0x038D00, asmtu, cs4/Seimei/src/Game]
+        - [0x039A00, asmtu, cs4/Seimei/src/Load]
+        - [0x03A380, asmtu, cs4/Seimei/src/Main]
+        - [0x03AFE0, asmtu, cs4/Seimei/src/MathUtil]
+        - [0x03BCE0, asmtu, cs4/Seimei/src/MdlLink]
+        - [0x03BDC0, asmtu, cs4/Seimei/src/Mic]
+        - [0x03BEE0, asmtu, cs4/Seimei/src/Model]
+        - [0x03D1A0, asmtu, cs4/Seimei/src/Pad]
+        - [0x03DF80, asmtu, cs4/Seimei/src/Sprite]
+        - [0x03E9A0, asmtu, cs4/Seimei/src/Tex]
+        - [0x03FC40, asmtu, cs4/Seimei/src/Vmd]
+        - [0x0414C0, asmtu, cs4/Seimei/src/Vram]
+        - [0x041B90, asmtu, cs4/Seimei/src/Vu1]
+        - [0x041E70, asmtu, cs4/Seimei/fslib/lib/fslibmc]
+        - [0x046A00, asmtu, cs4/Seimei/fslib/lib/fslibpa2]
+        - [0x047A20, asmtu, cs4/Seimei/fslib/lib/fslibsd]
+        - [0x0484C0, asmtu, cs4/Seimei/fslib/lib/fslibsdsynth]
+        - [0x04AA50, asmtu, cs4/Seimei/fslib/lib/fslibvu0]
+        - [0x04ABC0, asmtu, cs4/Seimei/src/Memory]
+        - [0x04B150, asmtu, cs4/Seimei/src/Map]
+        - [0x04FBC0, asmtu, cs4/Seimei/src/String]
+        - [0x04FD50, asmtu, cs4/Seimei/src/My]
+        - [0x053740, asmtu, cs4/Seimei/src/MyAct]
+        - [0x056F20, asmtu, cs4/Seimei/src/MyThk]
+        - [0x059480, asmtu, cs4/Seimei/fslib/lib/fslibhit]
+        - [0x0594F0, asmtu, cs4/Seimei/fslib/lib/hit_basic]
+        - [0x059650, asmtu, cs4/Seimei/fslib/lib/hit_calc]
+        - [0x059720, asmtu, cs4/Seimei/fslib/lib/hit_info]
+        - [0x059790, asmtu, cs4/Seimei/src/Mi2]
+        - [0x059860, asmtu, cs4/Seimei/src/CharHit]
+        - [0x059C60, asmtu, cs4/Seimei/src/Dss]
+        - [0x05ACB0, asmtu, cs4/Seimei/src/Damage]
+        - [0x05B3B0, asmtu, cs4/Seimei/src/Hmd]
+        - [0x05E360, asmtu, cs4/Seimei/src/Binder]
+        - [0x05E980, asmtu, cs4/Seimei/src/Ene]
+        - [0x060DF0, asmtu, cs4/Seimei/src/EneAct]
+        - [0x062F40, asmtu, cs4/Seimei/src/EneThk]
+        - [0x0649E0, asmtu, cs4/Seimei/src/PointLight]
+        - [0x065370, asmtu, cs4/Seimei/lib/libaio]
+        - [0x0683E0, asmtu, cs4/Seimei/src/Scene]
+        - [0x068BF0, asmtu, cs4/Seimei/src/ShadowVolume]
+        - [0x068E00, asmtu, cs4/Seimei/src/DepthAlpha]
+        - [0x069460, asmtu, cs4/Seimei/src/ClothSimulator]
+        - [0x069930, asmtu, cs4/Seimei/src/Rta]
+        - [0x06B9B0, asmtu, cs4/Seimei/src/rta_util]
+        - [0x06BB00, asmtu, cs4/Seimei/src/Script]
+        - [0x06F370, asmtu, cs4/Seimei/fslib/lib/fslibscr]
+        - [0x0709B0, asmtu, cs4/Seimei/src/MyDamage]
+        - [0x0710E0, asmtu, cs4/Seimei/src/EneDamage]
+        - [0x072120, asmtu, unklib_001720A0] # GCC TU
+        - [0x072360, asmtu, cs4/Seimei/fslib/lib/FsFont]
+        - [0x0747D0, asmtu, cs4/Seimei/fslib/lib/FsFontDraw]
+        - [0x076C20, asmtu, cs4/Seimei/fslib/lib/FsFontRect]
+        - [0x076C40, asmtu, cs4/Seimei/fslib/lib/FsFontReplace]
+        - [0x076F20, asmtu, cs4/Seimei/src/Font]
+        - [0x077A10, asmtu, cs4/Seimei/src/Dizzy]
+        - [0x0796C0, asmtu, cs4/Seimei/src/SandEffect]
+        - [0x0796E0, asmtu, cs4/Seimei/src/Drama]
+        - [0x07B6A0, asmtu, cs4/Seimei/src/Msg]
+        - [0x07CA90, asmtu, cs4/Seimei/src/KuonMsg]
+        - [0x07D140, asmtu, cs4/Seimei/src/List]
+        - [0x07D920, asmtu, cs4/Seimei/src/util]
+        - [0x07DAE0, asmtu, cs4/Seimei/src/FsMsg]
+        - [0x07DBC0, asmtu, cs4/Seimei/src/TmpMenu]
+        - [0x07DFB0, asmtu, cs4/Seimei/src/Object]
+        - [0x0807A0, asmtu, cs4/Seimei/src/Fade]
+        - [0x081180, asmtu, cs4/Seimei/src/Blast]
+        - [0x081760, asmtu, cs4/Seimei/src/Light]
+        - [0x081910, asmtu, cs4/Seimei/src/Cdvd]
+        - [0x0820E0, asmtu, cs4/Seimei/src/Filter]
+        - [0x085190, asmtu, cs4/Seimei/src/msg_util]
+        - [0x085610, asmtu, cs4/Seimei/src/DrawOT]
+        - [0x085FA0, asmtu, cs4/Seimei/src/ItemMng]
+        - [0x087040, asmtu, cs4/Seimei/src/Title]
+        - [0x08DDB0, asmtu, cs4/Seimei/src/Spirit]
+        - [0x08DE80, asmtu, cs4/Seimei/src/E016Act]
+        - [0x08E2E0, asmtu, cs4/Seimei/src/E016Thk]
+        - [0x08E800, asmtu, cs4/Seimei/src/E011Act]
+        - [0x08EEB0, asmtu, cs4/Seimei/src/E011Thk]
+        - [0x08F770, asmtu, cs4/Seimei/src/Peep]
+        - [0x090F60, asmtu, cs4/Seimei/src/P007Act]
+        - [0x0910A0, asmtu, cs4/Seimei/src/P007Thk]
+        - [0x091170, asmtu, cs4/Seimei/src/EtcEvent]
+        - [0x091700, asmtu, cs4/Seimei/src/FrontEnd/FrontEnd_Card]
+        - [0x093A10, asmtu, cs4/Seimei/src/P008Act]
+        - [0x093C60, asmtu, cs4/Seimei/src/Param]
+        - [0x093CE0, asmtu, cs4/Seimei/src/P004Act]
+        - [0x094120, asmtu, cs4/Seimei/src/P004Thk]
+        - [0x094400, asmtu, cs4/Seimei/src/E022Act]
+        - [0x094EF0, asmtu, cs4/Seimei/src/E022Thk]
+        - [0x095750, asmtu, cs4/Seimei/src/Movie]
+        - [0x095D20, asmtu, unklib_00195CA0]
+        - [0x09BBE0, asmtu, cs4/Seimei/src/MsgFile]
+        - [0x09C0F0, asmtu, cs4/Seimei/src/MemoryCard]
+        - [0x09DF70, asmtu, cs4/Seimei/src/MCIconData]
+        - [0x09DF90, asmtu, cs4/Seimei/src/MultiStm]
+        - [0x09E1E0, asmtu, unklib_0019E160]
+        - [0x0A1510, asmtu, cs4/Seimei/src/Mirror]
+        - [0x0A23B0, asmtu, cs4/Seimei/src/Riddle]
+        - [0x0A4F80, asmtu, cs4/Seimei/src/E031Act]
+        - [0x0A4F90, asmtu, cs4/Seimei/src/MovePath]
+        - [0x0A53F0, asmtu, cs4/Seimei/src/P006Thk]
+        - [0x0A54D0, asmtu, cs4/Seimei/src/P027Act]
+        - [0x0A5610, asmtu, cs4/Seimei/src/P027Thk]
+        - [0x0A5AE0, asmtu, cs4/Seimei/src/P018Act]
+        - [0x0A5EA0, asmtu, cs4/Seimei/src/P018Thk]
+        - [0x0A5F50, asmtu, cs4/Seimei/src/Miz]
+        - [0x0A6060, asmtu, cs4/Seimei/src/E032Act]
+        - [0x0A6440, asmtu, cs4/Seimei/src/E032Thk]
+        - [0x0A6630, asmtu, cs4/Seimei/src/P019Act]
+        - [0x0A69F0, asmtu, cs4/Seimei/src/P019Thk]
+        - [0x0A6B20, asmtu, cs4/Seimei/src/P030Act]
+        - [0x0A6E20, asmtu, cs4/Seimei/src/P030Thk]
+        - [0x0A6E40, asmtu, cs4/Seimei/src/TexEffect]
+        - [0x0A8580, asmtu, cs4/Seimei/src/P020Act]
+        - [0x0A89A0, asmtu, cs4/Seimei/src/E042Act]
+        - [0x0A8DD0, asmtu, cs4/Seimei/src/Sound/Sec]
+        - [0x0A9290, asmtu, cs4/Seimei/src/Sound/Snd]
+        - [0x0AA110, asmtu, cs4/Seimei/src/Sound/SndReverb]
+        - [0x0AA640, asmtu, cs4/Seimei/src/Sound/SndSq]
+        - [0x0AB190, asmtu, cs4/Seimei/src/Sound/SndVoice]
+        - [0x0AC990, asmtu, cs4/Seimei/src/Sound/VagStm]
+        - [0x0AE600, asmtu, cs4/Seimei/src/sfx/PtclMng]
+        - [0x0BB900, asmtu, cs4/Seimei/src/sfx/Sfx]
+        - [0x0BC750, asmtu, cs4/Seimei/src/sfx/SfxCommon]
+        - [0x0BF400, asmtu, cs4/Seimei/src/sfx/SfxDebug_TmrGraph]
+        - [0x0BF500, asmtu, cs4/Seimei/src/sfx/SfxDomanString]
+        - [0x0C00B0, asmtu, cs4/Seimei/src/sfx/SfxDraw]
+        - [0x0C3BD0, asmtu, cs4/Seimei/src/sfx/SfxFileIO]
+        - [0x0C42A0, asmtu, cs4/Seimei/src/sfx/SfxFlicker]
+        - [0x0C5C50, asmtu, cs4/Seimei/src/sfx/SfxFormat]
+        - [0x0C6B60, asmtu, cs4/Seimei/src/sfx/SfxMng]
+        - [0x0CE240, asmtu, cs4/Seimei/src/sfx/SfxModel]
+        - [0x0CEBE0, asmtu, cs4/Seimei/src/sfx/SfxPLight]
+        - [0x0CF7F0, asmtu, cs4/Seimei/src/sfx/SfxPostEffect]
+        - [0x0CFDA0, asmtu, cs4/Seimei/src/sfx/SfxTracer]
+        - [0x0D0F90, asmtu, cs4/Seimei/src/sfx/StaticList]
+        - [0x0D14E0, asmtu, cs4/Seimei/src/menu/KnMenuModel]
+        - [0x0D61F0, asmtu, cs4/Seimei/src/menu/KnMenuWind]
+        - [0x0D66D0, asmtu, cs4/Seimei/src/menu/KuonMenu]
+        - [0x0D8500, asmtu, cs4/Seimei/src/menu/Menu]
+        - [0x0D9620, asmtu, cs4/Seimei/src/menu/menu_util]
+        - [0x0EBBE0, asmtu, cs4/Seimei/src/menu/MenuCtrl]
+        - [0x0EE080, asmtu, cs4/Seimei/src/menu/MenuItem]
+        - [0x0F1B60, asmtu, cs4/Seimei/src/MiniGame/GameFunc]
+        - [0x0F55C0, asmtu, cs4/Seimei/src/MiniGame/MGAnime]
+        - [0x0F7C70, asmtu, cs4/Seimei/src/MiniGame/MGFont]
+        - [0x0F7DC0, asmtu, cs4/Seimei/src/MiniGame/MGInit]
+        - [0x0F9AB0, asmtu, cs4/Seimei/src/MiniGame/MGLoad]
+        - [0x0F9CD0, asmtu, cs4/Seimei/src/MiniGame/MGPad]
+        - [0x0FE8D0, asmtu, cs4/Seimei/src/MiniGame/MGSprite]
+        - [0x0FF080, asmtu, cs4/Seimei/src/MiniGame/MiniGame]
+        - [0x0FF8D0, asmtu, cs4/Seimei/src/E035Act]
+        - [0x0FFBB0, asmtu, cs4/Seimei/src/E035Thk]
+        - [0x0FFD70, asmtu, cs4/Seimei/src/E034Act]
+        - [0x0FFF70, asmtu, cs4/Seimei/src/E034Thk]
+        - [0x100130, asmtu, cs4/Seimei/src/P025Act]
+        - [0x100710, asmtu, cs4/Seimei/src/P025Thk]
+        - [0x100920, asmtu, cs4/Seimei/src/E003Act]
+        - [0x100FD0, asmtu, cs4/Seimei/src/E003Thk]
+        - [0x101890, asmtu, cs4/Seimei/src/E028Act]
+        - [0x1018A0, asmtu, cs4/Seimei/src/E033Act]
+        - [0x101960, asmtu, cs4/Seimei/src/E036Act]
+        - [0x101970, asmtu, cs4/Seimei/src/E037Act]
+        - [0x101980, asmtu, cs4/Seimei/src/MiniGame/TMKSpriteInit]
+        - [0x104470, asmtu, cs4/Seimei/src/sfx/SfxBugs]
+        - [0x105150, asmtu, cs4/Seimei/src/E044Act]
+        - [0x105560, asmtu, cs4/Seimei/src/sfx/SfxFog]
+        - [0x105A00, asmtu, cs4/Seimei/fslib/lib/fsspummng]
+        - [0x106520, asmtu, cs4/Seimei/src/Event]
+        - [0x106A90, asmtu, cs4/Seimei/src/Event0031]
+        - [0x107380, asmtu, cs4/Seimei/src/Event0051]
+        - [0x107E90, asmtu, cs4/Seimei/src/MiniGame/sgh/sgh]
+        - [0x107EA0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghDice]
+        - [0x108860, asmtu, cs4/Seimei/src/MiniGame/sgh/sghDraw]
+        - [0x108AD0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghEne]
+        - [0x108BD0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghEneThk]
+        - [0x10A890, asmtu, cs4/Seimei/src/MiniGame/sgh/sghKoma]
+        - [0x10BEA0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghMain]
+        - [0x10BFE0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghMap]
+        - [0x10C9D0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghMarker]
+        - [0x10CBF0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghMode]
+        - [0x10DCB0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghMsg]
+        - [0x10EA40, asmtu, cs4/Seimei/src/MiniGame/sgh/sghPad]
+        - [0x10F7D0, asmtu, cs4/Seimei/src/MiniGame/sgh/sghSprite]
+        - [0x10FC50, asmtu, cs4/Seimei/src/MiniGame/sgh/sghTime]
+        - [0x10FC70, asmtu, cs4/Seimei/src/Event0035]
+        - [0x110390, asmtu, cs4/Seimei/src/Event0034]
+        - [0x1107C0, asmtu, cs4/Seimei/src/Event0033]
+        - [0x110F20, asmtu, cs4/Seimei/src/Event0040]
+        - [0x111470, asmtu, cs4/Seimei/src/Event0010]
+        - [0x112490, asmtu, cs4/Seimei/src/Event0041]
+        - [0x1126A0, asmtu, cs4/Seimei/src/Event0008]
+        - [0x112A80, asmtu, cs4/Seimei/src/Event0009]
+        - [0x112B40, asmtu, cs4/Seimei/src/menu/MenuTD]
+        - [0x113920, asmtu, cs4/Seimei/src/Event0083]
+        - [0x113B10, asmtu, cs4/Seimei/src/E041Act]
+        - [0x113BD0, asmtu, cs4/Seimei/src/Event0002]
+        - [0x114110, asmtu, cs4/Seimei/src/Event0006]
+        - [0x115080, asmtu, cs4/Seimei/src/sfx/SfxScriptIF]
+        - [0x115300, asmtu, cs4/Seimei/src/Event0032]
+        - [0x115610, asmtu, cs4/Seimei/src/E023Act]
+        - [0x115620, asmtu, cs4/Seimei/src/Event0001]
+        - [0x1157F0, asmtu, cs4/Seimei/src/P036Act]
+        - [0x115910, asmtu, cs4/Seimei/src/Event0085]
+        - [0x115B70, asmtu, unklib_00215AF0]
 
         # vutext
         - [0x11C700, textbin, vutext]
-        - [0x124780, data, sdk/sce/ee/libgraph/graph001] # vram: 0x00224700
-        - [0x1247A0, data, sdk/sce/ee/libgraph/graph002] # vram: 0x00224720
-        - [0x1247C0, data, sdk/sce/ee/libgraph/graph018] # vram: 0x00224740
-        - [0x1247D0, data, sdk/sce/ee/libdma/libdma] # vram: 0x00224750
-        - [0x124810, data, sdk/sce/ee/libvu0/libvu0] # vram: 0x00224790
-        - [0x124850, data, sdk/sce/ee/libmpeg/mpc] # vram: 0x002247D0
-        - [0x1248F8, data, sdk/sce/ee/libmpeg/pack] # vram: 0x00224878
-        - [0x1249C0, data, sdk/sce/ee/libmpeg/init] # vram: 0x00224940
-        - [0x124A40, data, sdk/sce/ee/libipu/ipuinit] # vram: 0x002249C0
-        - [0x124AC0, data, sdk/sce/ee/libkernl/klib] # vram: 0x00224A40
-        - [0x124AD0, data, sdk/sce/ee/libkernl/glue] # vram: 0x00224A50
-        - [0x124AD8, data, sdk/sce/ee/libkernl/thread] # vram: 0x00224A58
-        - [0x124AE0, data, sdk/sce/ee/libkernl/kprintf] # vram: 0x00224A60
-        - [0x124AE8, data, sdk/sce/ee/libkernl/sifcmd] # vram: 0x00224A68
-        - [0x124AF0, data, sdk/sce/ee/libkernl/sifrpc] # vram: 0x00224A70
-        - [0x124AF8, data, sdk/sce/ee/libkernl/filestub] # vram: 0x00224A78
-        - [0x124B98, data, sdk/sce/ee/libkernl/iopheap] # vram: 0x00224B18
-        - [0x124BA0, data, sdk/sce/ee/libkernl/eeloadfile] # vram: 0x00224B20
-        - [0x124BA8, data, sdk/sce/ee/libkernl/tlbfunc] # vram: 0x00224B28
-        - [0x1251F8, data, sdk/sce/ee/libkernl/initsys] # vram: 0x00225178
-        - [0x125218, data, sdk/sce/ee/libkernl/libosd] # vram: 0x00225198
-        - [0x1259D8, data, sdk/sce/ee/libkernl/exit] # vram: 0x00225958
-        - [0x1259E0, data, sdk/sce/ee/libkernl/alarm] # vram: 0x0022596
-        - [0x126188, data, sdk/sce/ee/libkernl/timer] # vram: 0x0022610
-        - [0x1261A8, data, sdk/sce/ee/libkernl/iopnotify] # vram: 0x00226128
-        - [0x1261B0, data, sdk/sce/ee/libpad/libpad] # vram: 0x00226130
-        - [0x1261F8, data, sdk/sce/ee/libsdr/sdr_main] # vram: 0x00226178
-        - [0x126210, data, unklib_00226190] # vram: 0x00226190
-        - [0x126240, data, sdk/sce/ee/libcdvd/cdvd000] # vram: 0x002261C0
-        - [0x127DE8, data, sdk/sce/ee/libcdvd/cdvd036] # vram: 0x00227D68
-        - [0x127DF8, data, sdk/sce/ee/libcdvd/cdvd047] # vram: 0x00227D78
-        - [0x127E00, data, sdk/sce/ee/libmc/libmc] # vram: 0x00227D80
-        - [0x127E20, data, unklib_00227DA0] # vram: 0x00227DA0
-        - [0x128118, data, unklib_00228098] # vram: 0x00228098
-        - [0x128120, data, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mallocr] # vram: 0x002280A0
-        - [0x128578, data, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mlock] # vram: 0x002284F8
-        - [0x128580, data, cs4/Seimei/src/AniFile] # vram: 0x00228500
-        - [0x1285C0, data, cs4/Seimei/src/Camera] # vram: 0x00228540
-        - [0x1285F0, data, cs4/Seimei/src/Draw] # vram: 0x00228570
-        - [0x128730, data, cs4/Seimei/src/Game] # vram: 0x002286B0
-        - [0x128740, data, cs4/Seimei/src/Load] # vram: 0x002286C0
-        - [0x128770, data, cs4/Seimei/src/MathUtil] # vram: 0x002286F0
-        - [0x128800, data, cs4/Seimei/src/Model] # vram: 0x00228780
-        - [0x128810, data, cs4/Seimei/fslib/lib/fslibsdsynth] # vram: 0x00228790
-        - [0x128950, data, cs4/Seimei/src/My] # vram: 0x002288D0
-        - [0x1289A0, data, cs4/Seimei/src/MyAct] # vram: 0x00228920
-        - [0x1289B0, data, cs4/Seimei/src/MyThk] # vram: 0x00228930
-        - [0x1289C0, data, cs4/Seimei/src/Binder] # vram: 0x00228940
-        - [0x128AC0, data, cs4/Seimei/src/Ene] # vram: 0x00228A40
-        - [0x128FA0, data, cs4/Seimei/src/Shadow] # vram: 0x00228F20
-        - [0x129000, data, cs4/Seimei/src/DepthAlpha] # vram: 0x00228F80
-        - [0x129040, data, cs4/Seimei/src/Rta] # vram: 0x00228FC0
-        - [0x129080, data, cs4/Seimei/src/rta_util] # vram: 0x00229000
-        - [0x12AFD0, data, cs4/Seimei/src/Script] # vram: 0x0022AF50
-        - [0x12B030, data, cs4/Seimei/src/EneDamage] # vram: 0x0022AFB0
-        - [0x12B040, data, cs4/Seimei/fslib/lib/FsFont] # vram: 0x0022AFC0
-        - [0x12B1B0, data, cs4/Seimei/src/Drama] # vram: 0x0022B130
-        - [0x12B210, data, cs4/Seimei/src/Msg] # vram: 0x0022B190
-        - [0x12B220, data, cs4/Seimei/src/util] # vram: 0x0022B1A0
-        - [0x12B270, data, cs4/Seimei/src/TmpMenu] # vram: 0x0022B1F0
-        - [0x12B280, data, cs4/Seimei/src/Object] # vram: 0x0022B200
-        - [0x12B2E0, data, cs4/Seimei/src/Filter] # vram: 0x0022B260
-        - [0x12B340, data, cs4/Seimei/src/msg_util] # vram: 0x0022B2C0
-        - [0x12B350, data, cs4/Seimei/src/ItemMng] # vram: 0x0022B2D0
-        - [0x12B8C0, data, cs4/Seimei/src/Title] # vram: 0x0022B840
-        - [0x12C320, data, cs4/Seimei/src/Peep] # vram: 0x0022C2A0
-        - [0x12C400, data, cs4/Seimei/src/EtcEvent] # vram: 0x0022C380
-        - [0x12C460, data, cs4/Seimei/src/FrontEnd/FrontEnd_Card] # vram: 0x0022C3E0
-        - [0x12C5E0, data, cs4/Seimei/src/P008Act] # vram: 0x0022C560
-        - [0x12C5F0, data, cs4/Seimei/src/P004Thk] # vram: 0x0022C570
-        - [0x12C650, data, cs4/Seimei/src/E022Act] # vram: 0x0022C5D0 could be cs4/Seimei/src/E022Thk too
-        - [0x12C670, data, cs4/Seimei/src/Movie] # vram: 0x0022C5F0
-        - [0x12C6D0, data, unklib_00195CA0] # vram: 0x0022C650
-        - [0x12C700, data, cs4/Seimei/src/MsgFile] # vram: 0x0022C680
-        - [0x12C800, data, cs4/Seimei/src/MemoryCard] # vram: 0x0022C780
-        - [0x12CBD0, data, cs4/Seimei/src/MCIconData] # vram: 0x0022CB50
-        - [0x146830, data, unklib_0019E160] # vram: 0x002467B0
-        - [0x146940, data, cs4/Seimei/src/Mirror] # vram: 0x002468C0
-        - [0x148280, data, cs4/Seimei/src/Riddle] # vram: 0x00248200
-        - [0x148480, data, cs4/Seimei/src/E032Act] # vram: 0x00248400
-        - [0x1484A0, data, cs4/Seimei/src/Sound/SndSq] # vram: 0x00248420
-        - [0x1484B0, data, cs4/Seimei/src/sfx/PtclMng] # vram: 0x00248430
-        - [0x1485D0, data, cs4/Seimei/src/sfx/SfxDomanString] # vram: 0x00248550
-        - [0x148650, data, cs4/Seimei/src/sfx/SfxDraw] # vram: 0x002485D0
-        - [0x1486C0, data, cs4/Seimei/src/sfx/SfxFileIO] # vram: 0x00248640
-        - [0x1486E0, data, cs4/Seimei/src/sfx/SfxFlicker] # vram: 0x00248660
-        - [0x148730, data, cs4/Seimei/src/sfx/SfxFormat] # vram: 0x002486B0
-        - [0x1487B0, data, cs4/Seimei/src/sfx/SfxMng] # vram: 0x00248730
-        - [0x1488E0, data, cs4/Seimei/src/sfx/SfxPLight] # vram: 0x00248860
-        - [0x148900, data, cs4/Seimei/src/sfx/SfxTracer] # vram: 0x00248880
-        - [0x148940, data, cs4/Seimei/src/menu/KnMenuModel] # vram: 0x002488C0
-        - [0x148B40, data, cs4/Seimei/src/menu/KnMenuWind] # vram: 0x00248AC0
-        - [0x148B50, data, cs4/Seimei/src/menu/KuonMenu] # vram: 0x00248AD0
-        - [0x148B60, data, cs4/Seimei/src/menu/menu_util] # vram: 0x00248AE0
-        - [0x149E60, data, cs4/Seimei/src/MiniGame/GameFunc] # vram: 0x00249DE0
-        - [0x149FA0, data, cs4/Seimei/src/MiniGame/MGAnime] # vram: 0x00249F20
-        - [0x14A010, data, cs4/Seimei/src/MiniGame/MGInit] # vram: 0x00249F90
-        - [0x14D0B0, data, cs4/Seimei/src/MiniGame/MGLoad] # vram: 0x0024D030
-        - [0x14F190, data, cs4/Seimei/src/MiniGame/MGPad] # vram: 0x0024F110
-        - [0x14F2D0, data, cs4/Seimei/src/MiniGame/MiniGame] # vram: 0x0024F250
-        - [0x14F2E0, data, cs4/Seimei/src/E035Act] # vram: 0x0024F260
-        - [0x14F300, data, cs4/Seimei/src/E034Act] # vram: 0x0024F280
-        - [0x14F310, data, cs4/Seimei/src/MiniGame/TMKSpriteInit] # vram: 0x0024F290
-        - [0x1500A0, data, cs4/Seimei/src/sfx/SfxBugs] # vram: 0x00250020
-        - [0x1500C0, data, cs4/Seimei/src/E044Act] # vram: 0x00250040
-        - [0x1500D0, data, cs4/Seimei/src/sfx/SfxFog] # vram: 0x00250050
-        - [0x150100, data, cs4/Seimei/src/Event0031] # vram: 0x00250080
-        - [0x150120, data, cs4/Seimei/src/Event0051] # vram: 0x002500A0
-        - [0x150140, data, cs4/Seimei/src/MiniGame/sgh/sghDice] # vram: 0x002500C0
-        - [0x150180, data, cs4/Seimei/src/MiniGame/sgh/sghEneThk] # vram: 0x00250100
-        - [0x1501C0, data, cs4/Seimei/src/MiniGame/sgh/sghKoma] # vram: 0x00250140
-        - [0x1501D0, data, cs4/Seimei/src/MiniGame/sgh/sghMap] # vram: 0x00250150
-        - [0x150210, data, cs4/Seimei/src/MiniGame/sgh/sghMode] # vram: 0x00250190
-        - [0x150290, data, cs4/Seimei/src/MiniGame/sgh/sghMsg] # vram: 0x00250210
-        - [0x150310, data, cs4/Seimei/src/MiniGame/sgh/sghPad] # vram: 0x00250290
-        - [0x150380, data, cs4/Seimei/src/MiniGame/sgh/sghSprite] # vram: 0x00250300
-        - [0x1503B0, data, cs4/Seimei/src/Event0033] # vram: 0x00250330
-        - [0x1503C0, data, cs4/Seimei/src/Event0010] # vram: 0x00250340
-        - [0x150420, data, cs4/Seimei/src/Event0041] # vram: 0x002503A0
-        - [0x150440, data, cs4/Seimei/src/Event0008] # vram: 0x002503C0
-        - [0x150490, data, cs4/Seimei/src/menu/MenuTD] # vram: 0x00250410
-        - [0x1504D0, data, cs4/Seimei/src/Event0002] # vram: 0x00250450
-        - [0x1504E0, data, cs4/Seimei/src/Event0006] # vram: 0x00250460
-        - [0x1505A0, data, cs4/Seimei/src/sfx/SfxScriptIF] # vram: 0x00250520
-        - [0x1505C0, data, cs4/Seimei/src/Event0032] # vram: 0x00250540
-        - [0x150600, data, cs4/Seimei/src/Event0001] # vram: 0x00250580
-        - [0x150620, data, unklib_00215AF0] # vram: 0x002505A0
+        - [0x124780, .data, sdk/sce/ee/libgraph/graph001] # vram: 0x00224700
+        - [0x1247A0, .data, sdk/sce/ee/libgraph/graph002] # vram: 0x00224720
+        - [0x1247C0, .data, sdk/sce/ee/libgraph/graph018] # vram: 0x00224740
+        - [0x1247D0, .data, sdk/sce/ee/libdma/libdma] # vram: 0x00224750
+        - [0x124810, .data, sdk/sce/ee/libvu0/libvu0] # vram: 0x00224790
+        - [0x124850, .data, sdk/sce/ee/libmpeg/mpc] # vram: 0x002247D0
+        - [0x1248F8, .data, sdk/sce/ee/libmpeg/pack] # vram: 0x00224878
+        - [0x1249C0, .data, sdk/sce/ee/libmpeg/init] # vram: 0x00224940
+        - [0x124A40, .data, sdk/sce/ee/libipu/ipuinit] # vram: 0x002249C0
+        - [0x124AC0, .data, sdk/sce/ee/libkernl/klib] # vram: 0x00224A40
+        - [0x124AD0, .data, sdk/sce/ee/libkernl/glue] # vram: 0x00224A50
+        - [0x124AD8, .data, sdk/sce/ee/libkernl/thread] # vram: 0x00224A58
+        - [0x124AE0, .data, sdk/sce/ee/libkernl/kprintf] # vram: 0x00224A60
+        - [0x124AE8, .data, sdk/sce/ee/libkernl/sifcmd] # vram: 0x00224A68
+        - [0x124AF0, .data, sdk/sce/ee/libkernl/sifrpc] # vram: 0x00224A70
+        - [0x124AF8, .data, sdk/sce/ee/libkernl/filestub] # vram: 0x00224A78
+        - [0x124B98, .data, sdk/sce/ee/libkernl/iopheap] # vram: 0x00224B18
+        - [0x124BA0, .data, sdk/sce/ee/libkernl/eeloadfile] # vram: 0x00224B20
+        - [0x124BA8, .data, sdk/sce/ee/libkernl/tlbfunc] # vram: 0x00224B28
+        - [0x1251F8, .data, sdk/sce/ee/libkernl/initsys] # vram: 0x00225178
+        - [0x125218, .data, sdk/sce/ee/libkernl/libosd] # vram: 0x00225198
+        - [0x1259D8, .data, sdk/sce/ee/libkernl/exit] # vram: 0x00225958
+        - [0x1259E0, .data, sdk/sce/ee/libkernl/alarm] # vram: 0x0022596
+        - [0x126188, .data, sdk/sce/ee/libkernl/timer] # vram: 0x0022610
+        - [0x1261A8, .data, sdk/sce/ee/libkernl/iopnotify] # vram: 0x00226128
+        - [0x1261B0, .data, sdk/sce/ee/libpad/libpad] # vram: 0x00226130
+        - [0x1261F8, .data, sdk/sce/ee/libsdr/sdr_main] # vram: 0x00226178
+        - [0x126210, .data, unklib_00226190] # vram: 0x00226190
+        - [0x126240, .data, sdk/sce/ee/libcdvd/cdvd000] # vram: 0x002261C0
+        - [0x127DE8, .data, sdk/sce/ee/libcdvd/cdvd036] # vram: 0x00227D68
+        - [0x127DF8, .data, sdk/sce/ee/libcdvd/cdvd047] # vram: 0x00227D78
+        - [0x127E00, .data, sdk/sce/ee/libmc/libmc] # vram: 0x00227D80
+        - [0x127E20, .data, unklib_00227DA0] # vram: 0x00227DA0
+        - [0x128118, .data, unklib_00228098] # vram: 0x00228098
+        - [0x128120, .data, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mallocr] # vram: 0x002280A0
+        - [0x128578, .data, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mlock] # vram: 0x002284F8
+        - [0x128580, .data, cs4/Seimei/src/AniFile] # vram: 0x00228500
+        - [0x1285C0, .data, cs4/Seimei/src/Camera] # vram: 0x00228540
+        - [0x1285F0, .data, cs4/Seimei/src/Draw] # vram: 0x00228570
+        - [0x128730, .data, cs4/Seimei/src/Game] # vram: 0x002286B0
+        - [0x128740, .data, cs4/Seimei/src/Load] # vram: 0x002286C0
+        - [0x128770, .data, cs4/Seimei/src/MathUtil] # vram: 0x002286F0
+        - [0x128800, .data, cs4/Seimei/src/Model] # vram: 0x00228780
+        - [0x128810, .data, cs4/Seimei/fslib/lib/fslibsdsynth] # vram: 0x00228790
+        - [0x128950, .data, cs4/Seimei/src/My] # vram: 0x002288D0
+        - [0x1289A0, .data, cs4/Seimei/src/MyAct] # vram: 0x00228920
+        - [0x1289B0, .data, cs4/Seimei/src/MyThk] # vram: 0x00228930
+        - [0x1289C0, .data, cs4/Seimei/src/Binder] # vram: 0x00228940
+        - [0x128AC0, .data, cs4/Seimei/src/Ene] # vram: 0x00228A40
+        - [0x128FA0, .data, cs4/Seimei/src/Shadow] # vram: 0x00228F20
+        - [0x129000, .data, cs4/Seimei/src/DepthAlpha] # vram: 0x00228F80
+        - [0x129040, .data, cs4/Seimei/src/Rta] # vram: 0x00228FC0
+        - [0x129080, .data, cs4/Seimei/src/rta_util] # vram: 0x00229000
+        - [0x12AFD0, .data, cs4/Seimei/src/Script] # vram: 0x0022AF50
+        - [0x12B030, .data, cs4/Seimei/src/EneDamage] # vram: 0x0022AFB0
+        - [0x12B040, .data, cs4/Seimei/fslib/lib/FsFont] # vram: 0x0022AFC0
+        - [0x12B1B0, .data, cs4/Seimei/src/Drama] # vram: 0x0022B130
+        - [0x12B210, .data, cs4/Seimei/src/Msg] # vram: 0x0022B190
+        - [0x12B220, .data, cs4/Seimei/src/util] # vram: 0x0022B1A0
+        - [0x12B270, .data, cs4/Seimei/src/TmpMenu] # vram: 0x0022B1F0
+        - [0x12B280, .data, cs4/Seimei/src/Object] # vram: 0x0022B200
+        - [0x12B2E0, .data, cs4/Seimei/src/Filter] # vram: 0x0022B260
+        - [0x12B340, .data, cs4/Seimei/src/msg_util] # vram: 0x0022B2C0
+        - [0x12B350, .data, cs4/Seimei/src/ItemMng] # vram: 0x0022B2D0
+        - [0x12B8C0, .data, cs4/Seimei/src/Title] # vram: 0x0022B840
+        - [0x12C320, .data, cs4/Seimei/src/Peep] # vram: 0x0022C2A0
+        - [0x12C400, .data, cs4/Seimei/src/EtcEvent] # vram: 0x0022C380
+        - [0x12C460, .data, cs4/Seimei/src/FrontEnd/FrontEnd_Card] # vram: 0x0022C3E0
+        - [0x12C5E0, .data, cs4/Seimei/src/P008Act] # vram: 0x0022C560
+        - [0x12C5F0, .data, cs4/Seimei/src/P004Thk] # vram: 0x0022C570
+        - [0x12C650, .data, cs4/Seimei/src/E022Act] # vram: 0x0022C5D0 could be cs4/Seimei/src/E022Thk too
+        - [0x12C670, .data, cs4/Seimei/src/Movie] # vram: 0x0022C5F0
+        - [0x12C6D0, .data, unklib_00195CA0] # vram: 0x0022C650
+        - [0x12C700, .data, cs4/Seimei/src/MsgFile] # vram: 0x0022C680
+        - [0x12C800, .data, cs4/Seimei/src/MemoryCard] # vram: 0x0022C780
+        - [0x12CBD0, .data, cs4/Seimei/src/MCIconData] # vram: 0x0022CB50
+        - [0x146830, .data, unklib_0019E160] # vram: 0x002467B0
+        - [0x146940, .data, cs4/Seimei/src/Mirror] # vram: 0x002468C0
+        - [0x148280, .data, cs4/Seimei/src/Riddle] # vram: 0x00248200
+        - [0x148480, .data, cs4/Seimei/src/E032Act] # vram: 0x00248400
+        - [0x1484A0, .data, cs4/Seimei/src/Sound/SndSq] # vram: 0x00248420
+        - [0x1484B0, .data, cs4/Seimei/src/sfx/PtclMng] # vram: 0x00248430
+        - [0x1485D0, .data, cs4/Seimei/src/sfx/SfxDomanString] # vram: 0x00248550
+        - [0x148650, .data, cs4/Seimei/src/sfx/SfxDraw] # vram: 0x002485D0
+        - [0x1486C0, .data, cs4/Seimei/src/sfx/SfxFileIO] # vram: 0x00248640
+        - [0x1486E0, .data, cs4/Seimei/src/sfx/SfxFlicker] # vram: 0x00248660
+        - [0x148730, .data, cs4/Seimei/src/sfx/SfxFormat] # vram: 0x002486B0
+        - [0x1487B0, .data, cs4/Seimei/src/sfx/SfxMng] # vram: 0x00248730
+        - [0x1488E0, .data, cs4/Seimei/src/sfx/SfxPLight] # vram: 0x00248860
+        - [0x148900, .data, cs4/Seimei/src/sfx/SfxTracer] # vram: 0x00248880
+        - [0x148940, .data, cs4/Seimei/src/menu/KnMenuModel] # vram: 0x002488C0
+        - [0x148B40, .data, cs4/Seimei/src/menu/KnMenuWind] # vram: 0x00248AC0
+        - [0x148B50, .data, cs4/Seimei/src/menu/KuonMenu] # vram: 0x00248AD0
+        - [0x148B60, .data, cs4/Seimei/src/menu/menu_util] # vram: 0x00248AE0
+        - [0x149E60, .data, cs4/Seimei/src/MiniGame/GameFunc] # vram: 0x00249DE0
+        - [0x149FA0, .data, cs4/Seimei/src/MiniGame/MGAnime] # vram: 0x00249F20
+        - [0x14A010, .data, cs4/Seimei/src/MiniGame/MGInit] # vram: 0x00249F90
+        - [0x14D0B0, .data, cs4/Seimei/src/MiniGame/MGLoad] # vram: 0x0024D030
+        - [0x14F190, .data, cs4/Seimei/src/MiniGame/MGPad] # vram: 0x0024F110
+        - [0x14F2D0, .data, cs4/Seimei/src/MiniGame/MiniGame] # vram: 0x0024F250
+        - [0x14F2E0, .data, cs4/Seimei/src/E035Act] # vram: 0x0024F260
+        - [0x14F300, .data, cs4/Seimei/src/E034Act] # vram: 0x0024F280
+        - [0x14F310, .data, cs4/Seimei/src/MiniGame/TMKSpriteInit] # vram: 0x0024F290
+        - [0x1500A0, .data, cs4/Seimei/src/sfx/SfxBugs] # vram: 0x00250020
+        - [0x1500C0, .data, cs4/Seimei/src/E044Act] # vram: 0x00250040
+        - [0x1500D0, .data, cs4/Seimei/src/sfx/SfxFog] # vram: 0x00250050
+        - [0x150100, .data, cs4/Seimei/src/Event0031] # vram: 0x00250080
+        - [0x150120, .data, cs4/Seimei/src/Event0051] # vram: 0x002500A0
+        - [0x150140, .data, cs4/Seimei/src/MiniGame/sgh/sghDice] # vram: 0x002500C0
+        - [0x150180, .data, cs4/Seimei/src/MiniGame/sgh/sghEneThk] # vram: 0x00250100
+        - [0x1501C0, .data, cs4/Seimei/src/MiniGame/sgh/sghKoma] # vram: 0x00250140
+        - [0x1501D0, .data, cs4/Seimei/src/MiniGame/sgh/sghMap] # vram: 0x00250150
+        - [0x150210, .data, cs4/Seimei/src/MiniGame/sgh/sghMode] # vram: 0x00250190
+        - [0x150290, .data, cs4/Seimei/src/MiniGame/sgh/sghMsg] # vram: 0x00250210
+        - [0x150310, .data, cs4/Seimei/src/MiniGame/sgh/sghPad] # vram: 0x00250290
+        - [0x150380, .data, cs4/Seimei/src/MiniGame/sgh/sghSprite] # vram: 0x00250300
+        - [0x1503B0, .data, cs4/Seimei/src/Event0033] # vram: 0x00250330
+        - [0x1503C0, .data, cs4/Seimei/src/Event0010] # vram: 0x00250340
+        - [0x150420, .data, cs4/Seimei/src/Event0041] # vram: 0x002503A0
+        - [0x150440, .data, cs4/Seimei/src/Event0008] # vram: 0x002503C0
+        - [0x150490, .data, cs4/Seimei/src/menu/MenuTD] # vram: 0x00250410
+        - [0x1504D0, .data, cs4/Seimei/src/Event0002] # vram: 0x00250450
+        - [0x1504E0, .data, cs4/Seimei/src/Event0006] # vram: 0x00250460
+        - [0x1505A0, .data, cs4/Seimei/src/sfx/SfxScriptIF] # vram: 0x00250520
+        - [0x1505C0, .data, cs4/Seimei/src/Event0032] # vram: 0x00250540
+        - [0x150600, .data, cs4/Seimei/src/Event0001] # vram: 0x00250580
+        - [0x150620, .data, unklib_00215AF0] # vram: 0x002505A0
 
-        - [0x150680, rodata, sdk/sce/ee/libgraph/graph003] # vram: 0x00250600
-        - [0x1506C8, rodata, sdk/sce/ee/libgraph/graph008] # vram: 0x00250648
-        - [0x1506F8, rodata, sdk/sce/ee/libgraph/graph012] # vram: 0x00250678
-        - [0x150890, rodata, sdk/sce/ee/libgraph/graph015] # vram: 0x00250810
-        - [0x1509B0, rodata, sdk/sce/ee/libgraph/graph017] # vram: 0x00250930
-        - [0x1509F0, rodata, sdk/sce/ee/libgraph/graph018] # vram: 0x00250970
-        - [0x150BC0, rodata, sdk/sce/ee/libdma/libdma] # vram: 0x00250B40
-        - [0x150C30, rodata, sdk/sce/ee/libdev/devvu1] # vram: 0x00250BB0
-        - [0x150C48, rodata, sdk/sce/ee/libmpeg/mpc] # vram: 0x00250BC8
-        - [0x150F10, rodata, sdk/sce/ee/libmpeg/csc] # vram: 0x00250E90
-        - [0x150F28, rodata, sdk/sce/ee/libmpeg/pack] # vram: 0x00250EA8
-        - [0x150F70, rodata, sdk/sce/ee/libmpeg/mpeg] # vram: 0x00250EF0
-        - [0x151078, rodata, sdk/sce/ee/libmpeg/init] # vram: 0x00250FF8
-        - [0x1511C0, rodata, sdk/sce/ee/libkernl/thread] # vram: 0x00251140
-        - [0x1511F8, rodata, sdk/sce/ee/libkernl/tty] # vram: 0x00251178
-        - [0x151270, rodata, sdk/sce/ee/libkernl/kprintf] # vram: 0x002511F0
-        - [0x1513D0, rodata, sdk/sce/ee/libkernl/filestub] # vram: 0x00251350
-        - [0x151440, rodata, sdk/sce/ee/libkernl/eeloadfile] # vram: 0x002513C0
-        - [0x151450, rodata, sdk/sce/ee/libkernl/iopreset] # vram: 0x002513D0
-        - [0x151480, rodata, sdk/sce/ee/libkernl/tlbfunc] # vram: 0x00251400
-        - [0x151500, rodata, sdk/sce/ee/libkernl/exit] # vram: 0x00251480
-        - [0x151508, rodata, sdk/sce/ee/libpad/libpad] # vram: 0x00251488
-        - [0x151660, rodata, sdk/sce/ee/libsdr/sdr_main] # vram: 0x002515E0
-        - [0x151688, rodata, sdk/sce/ee/libcdvd/cdvd000] # vram: 0x00251608
-        - [0x151858, rodata, sdk/sce/ee/libcdvd/cdvd005] # vram: 0x002517D8
-        - [0x151880, rodata, sdk/sce/ee/libcdvd/cdvd039] # vram: 0x00251800
-        - [0x1518C0, rodata, sdk/sce/ee/libcdvd/cdvd047] # vram: 0x00251840
-        - [0x1519E0, rodata, sdk/sce/ee/libmc/libmc] # vram: 0x00251960
-        - [0x151A68, rodata, sdk/sce/ee/gcc/ee/lib/libm/e_pow] # vram: 0x002519E8
-        - [0x151C38, rodata, sdk/sce/ee/gcc/ee/lib/libm/ef_powf] # vram: 0x00251BB8
-        - [0x151CC0, rodata, sdk/sce/ee/gcc/ee/lib/libm/ef_rem_pio2] # vram: 0x00251C40
-        - [0x152080, rodata, sdk/sce/ee/gcc/ee/lib/libm/kf_rem_pio2] # vram: 0x00252000
-        - [0x1520D0, rodata, sdk/sce/ee/gcc/ee/lib/libm/kf_tan] # vram: 0x00252050
-        - [0x152118, rodata, unklib_00252098] # vram: 0x00252098
-        - [0x152120, rodata, sdk/sce/ee/gcc/ee/lib/libm/s_scalbn] # vram: 0x002520A0
-        - [0x152150, rodata, sdk/sce/ee/gcc/ee/lib/libm/sf_atan] # vram: 0x002520D0
-        - [0x1521A8, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_divdi3] # vram: 0x00252128
-        - [0x1522A8, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_moddi3] # vram: 0x00252228
-        - [0x1523A8, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_udivdi3] # vram: 0x00252328
-        - [0x1524A8, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_umoddi3] # vram: 0x00252428
-        - [0x1525A8, rodata, unklib_00252528] # vram: 0x00252528
-        - [0x1525C0, rodata, unklib_00252540] # vram: 0x00252540
-        - [0x1526D0, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/dtoa] # vram: 0x00252650
-        - [0x152728, rodata, unklib_002526A8] # vram: 0x002526A8
-        - [0x152730, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/locale] # vram: 0x002526B0
-        - [0x152778, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mprec] # vram: 0x002526F8
-        - [0x1528A0, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtod] # vram: 0x00252820
-        - [0x152970, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfprintf] # vram: 0x002528F0
-        - [0x152B80, rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfscanf] # vram: 0x00252B00
-        - [0x152FF0, rodata, cs4/Seimei/src/Anim] # vram: 0x00252F70
-        - [0x153010, rodata, cs4/Seimei/src/Camera] # vram: 0x00252F90
-        - [0x153038, rodata, cs4/Seimei/src/Debug] # vram: 0x00252FB8
-        - [0x153068, rodata, cs4/Seimei/src/Draw] # vram: 0x00252FE8
-        - [0x1530D8, rodata, cs4/Seimei/src/File] # vram: 0x00253058
-        - [0x1530F8, rodata, cs4/Seimei/src/Game] # vram: 0x00253078
-        - [0x153110, rodata, cs4/Seimei/src/Load] # vram: 0x00253090
-        - [0x153148, rodata, cs4/Seimei/src/Main] # vram: 0x002530C8
-        - [0x153318, rodata, cs4/Seimei/src/Model] # vram: 0x0025329
-        - [0x153360, rodata, cs4/Seimei/src/Tex] # vram: 0x002532E0
-        - [0x153398, rodata, cs4/Seimei/src/Vmd] # vram: 0x00253318
-        - [0x1533C0, rodata, cs4/Seimei/fslib/lib/fslibmc] # vram: 0x00253340
-        - [0x153420, rodata, cs4/Seimei/fslib/lib/fslibsd] # vram: 0x002533A0
-        - [0x153450, rodata, cs4/Seimei/fslib/lib/fslibsdsynth] # vram: 0x002533D0
-        - [0x153480, rodata, cs4/Seimei/src/Map] # vram: 0x00253400
-        - [0x1537A8, rodata, cs4/Seimei/src/String] # vram: 0x00253728
-        - [0x1537B0, rodata, cs4/Seimei/src/My] # vram: 0x00253730
-        - [0x153800, rodata, cs4/Seimei/src/MyThk] # vram: 0x00253780
-        - [0x153860, rodata, cs4/Seimei/src/Dss] # vram: 0x002537E0
-        - [0x1538E0, rodata, cs4/Seimei/src/Binder] # vram: 0x00253860
-        - [0x153900, rodata, cs4/Seimei/lib/libaio] # vram: 0x00253880
-        - [0x1539B8, rodata, cs4/Seimei/src/Scene] # vram: 0x00253938
-        - [0x1539F0, rodata, cs4/Seimei/src/DepthAlpha] # vram: 0x00253970
-        - [0x153A10, rodata, cs4/Seimei/src/Rta] # vram: 0x00253990
-        - [0x153A60, rodata, cs4/Seimei/src/Script] # vram: 0x002539E0
-        - [0x153A80, rodata, cs4/Seimei/fslib/lib/fslibscr] # vram: 0x00253A00
-        - [0x153BA0, rodata, cs4/Seimei/src/EneDamage] # vram: 0x00253B20
-        - [0x153BD8, rodata, unklib_001720A0] # vram: 0x00253B58
-        - [0x153C18, rodata, cs4/Seimei/src/Font] # vram: 0x00253B98
-        - [0x153CA0, rodata, cs4/Seimei/src/Dizzy] # vram: 0x00253C2
-        - [0x153CC0, rodata, cs4/Seimei/src/Drama] # vram: 0x00253C40
-        - [0x153D38, rodata, cs4/Seimei/src/Msg] # vram: 0x00253CB8
-        - [0x153D80, rodata, cs4/Seimei/src/KuonMsg] # vram: 0x00253D00
-        - [0x153FC0, rodata, cs4/Seimei/src/List] # vram: 0x00253F40
-        - [0x153FD8, rodata, cs4/Seimei/src/util] # vram: 0x00253F58
-        - [0x153FF0, rodata, cs4/Seimei/src/Object] # vram: 0x00253F70
-        - [0x154010, rodata, cs4/Seimei/src/Fade] # vram: 0x00253F90
-        - [0x154070, rodata, cs4/Seimei/src/Cdvd] # vram: 0x00253FF0
-        - [0x1540E0, rodata, cs4/Seimei/src/Filter] # vram: 0x00254060
-        - [0x1540F0, rodata, cs4/Seimei/src/msg_util] # vram: 0x00254070
-        - [0x154100, rodata, cs4/Seimei/src/ItemMng] # vram: 0x00254990
-        - [0x154A20, rodata, cs4/Seimei/src/Title] # vram: 0x002549A0
-        - [0x154D98, rodata, cs4/Seimei/src/Peep] # vram: 0x00254D18
-        - [0x154DC0, rodata, cs4/Seimei/src/EtcEvent] # vram: 0x00254D40
-        - [0x154DF0, rodata, cs4/Seimei/src/FrontEnd/FrontEnd_Card] # vram: 0x00254D70
-        - [0x154E58, rodata, cs4/Seimei/src/Param] # vram: 0x00254DD8
-        - [0x154E68, rodata, cs4/Seimei/src/Movie] # vram: 0x00254EE8
-        - [0x154FA0, rodata, unklib_00195CA0] # vram: 0x00254F20
-        - [0x154FD0, rodata, cs4/Seimei/src/MsgFile] # vram: 0x00254F50
-        - [0x154FF0, rodata, cs4/Seimei/src/MemoryCard] # vram: 0x00254F70
-        - [0x1550F0, rodata, unklib_0019E160] # vram: 0x00255070
-        - [0x155150, rodata, cs4/Seimei/src/Riddle] # vram: 0x002550D0
-        - [0x155168, rodata, cs4/Seimei/src/TexEffect] # vram: 0x002550E8
-        - [0x1551F0, rodata, cs4/Seimei/src/Sound/Sec] # vram: 0x00255170
-        - [0x155350, rodata, cs4/Seimei/src/Sound/Snd] # vram: 0x002552D0
-        - [0x155370, rodata, cs4/Seimei/src/Sound/SndSq] # vram: 0x002552F0
-        - [0x155390, rodata, cs4/Seimei/src/Sound/SndVoice] # vram: 0x00255310
-        - [0x1553B8, rodata, cs4/Seimei/src/Sound/VagStm] # vram: 0x00255338
-        - [0x155490, rodata, cs4/Seimei/src/sfx/PtclMng] # vram: 0x00255410
-        - [0x155558, rodata, cs4/Seimei/src/sfx/Sfx] # vram: 0x002554D8
-        - [0x155570, rodata, cs4/Seimei/src/sfx/SfxCommon] # vram: 0x002554F0
-        - [0x1555A0, rodata, cs4/Seimei/src/sfx/SfxDomanString] # vram: 0x00255520
-        - [0x1555E8, rodata, cs4/Seimei/src/sfx/SfxDraw] # vram: 0x00255568
-        - [0x155618, rodata, cs4/Seimei/src/sfx/SfxFileIO] # vram: 0x00255598
-        - [0x1557A0, rodata, cs4/Seimei/src/sfx/SfxMng] # vram: 0x00255720
-        - [0x155860, rodata, cs4/Seimei/src/menu/KnMenuModel] # vram: 0x002557E0
-        - [0x155B70, rodata, cs4/Seimei/src/menu/KuonMenu] # vram: 0x00255AF0
-        - [0x155B78, rodata, cs4/Seimei/src/menu/Menu] # vram: 0x00255AF8
-        - [0x155B98, rodata, cs4/Seimei/src/menu/menu_util] # vram: 0x00255D98
-        - [0x156F20, rodata, cs4/Seimei/src/menu/MenuCtrl] # vram: 0x00256EA0
-        - [0x156FB0, rodata, cs4/Seimei/src/menu/MenuItem] # vram: 0x00256F30
-        - [0x157128, rodata, cs4/Seimei/src/MiniGame/GameFunc] # vram: 0x002570A8
-        - [0x1572F0, rodata, cs4/Seimei/src/MiniGame/MGAnime] # vram: 0x00257270
-        - [0x157310, rodata, cs4/Seimei/src/MiniGame/MGLoad] # vram: 0x00257290
-        - [0x1573A8, rodata, cs4/Seimei/src/sfx/SfxBugs] # vram: 0x00257328
-        - [0x1573B8, rodata, cs4/Seimei/src/sfx/SfxFog] # vram: 0x00257338
-        - [0x1573F0, rodata, cs4/Seimei/src/Event0031] # vram: 0x00257370
-        - [0x157410, rodata, cs4/Seimei/src/MiniGame/sgh/sghDice] # vram: 0x00257390
-        - [0x157460, rodata, cs4/Seimei/src/MiniGame/sgh/sghMsg] # vram: 0x002573E0
-        - [0x157470, rodata, cs4/Seimei/src/menu/MenuTD] # vram: 0x002573F0
-        - [0x1574D8, rodata, unklib_00215AF0] # vram: 0x00257458
+        - [0x150680, .rodata, sdk/sce/ee/libgraph/graph003] # vram: 0x00250600
+        - [0x1506C8, .rodata, sdk/sce/ee/libgraph/graph008] # vram: 0x00250648
+        - [0x1506F8, .rodata, sdk/sce/ee/libgraph/graph012] # vram: 0x00250678
+        - [0x150890, .rodata, sdk/sce/ee/libgraph/graph015] # vram: 0x00250810
+        - [0x1509B0, .rodata, sdk/sce/ee/libgraph/graph017] # vram: 0x00250930
+        - [0x1509F0, .rodata, sdk/sce/ee/libgraph/graph018] # vram: 0x00250970
+        - [0x150BC0, .rodata, sdk/sce/ee/libdma/libdma] # vram: 0x00250B40
+        - [0x150C30, .rodata, sdk/sce/ee/libdev/devvu1] # vram: 0x00250BB0
+        - [0x150C48, .rodata, sdk/sce/ee/libmpeg/mpc] # vram: 0x00250BC8
+        - [0x150F10, .rodata, sdk/sce/ee/libmpeg/csc] # vram: 0x00250E90
+        - [0x150F28, .rodata, sdk/sce/ee/libmpeg/pack] # vram: 0x00250EA8
+        - [0x150F70, .rodata, sdk/sce/ee/libmpeg/mpeg] # vram: 0x00250EF0
+        - [0x151078, .rodata, sdk/sce/ee/libmpeg/init] # vram: 0x00250FF8
+        - [0x1511C0, .rodata, sdk/sce/ee/libkernl/thread] # vram: 0x00251140
+        - [0x1511F8, .rodata, sdk/sce/ee/libkernl/tty] # vram: 0x00251178
+        - [0x151270, .rodata, sdk/sce/ee/libkernl/kprintf] # vram: 0x002511F0
+        - [0x1513D0, .rodata, sdk/sce/ee/libkernl/filestub] # vram: 0x00251350
+        - [0x151440, .rodata, sdk/sce/ee/libkernl/eeloadfile] # vram: 0x002513C0
+        - [0x151450, .rodata, sdk/sce/ee/libkernl/iopreset] # vram: 0x002513D0
+        - [0x151480, .rodata, sdk/sce/ee/libkernl/tlbfunc] # vram: 0x00251400
+        - [0x151500, .rodata, sdk/sce/ee/libkernl/exit] # vram: 0x00251480
+        - [0x151508, .rodata, sdk/sce/ee/libpad/libpad] # vram: 0x00251488
+        - [0x151660, .rodata, sdk/sce/ee/libsdr/sdr_main] # vram: 0x002515E0
+        - [0x151688, .rodata, sdk/sce/ee/libcdvd/cdvd000] # vram: 0x00251608
+        - [0x151858, .rodata, sdk/sce/ee/libcdvd/cdvd005] # vram: 0x002517D8
+        - [0x151880, .rodata, sdk/sce/ee/libcdvd/cdvd039] # vram: 0x00251800
+        - [0x1518C0, .rodata, sdk/sce/ee/libcdvd/cdvd047] # vram: 0x00251840
+        - [0x1519E0, .rodata, sdk/sce/ee/libmc/libmc] # vram: 0x00251960
+        - [0x151A68, .rodata, sdk/sce/ee/gcc/ee/lib/libm/e_pow] # vram: 0x002519E8
+        - [0x151C38, .rodata, sdk/sce/ee/gcc/ee/lib/libm/ef_powf] # vram: 0x00251BB8
+        - [0x151CC0, .rodata, sdk/sce/ee/gcc/ee/lib/libm/ef_rem_pio2] # vram: 0x00251C40
+        - [0x152080, .rodata, sdk/sce/ee/gcc/ee/lib/libm/kf_rem_pio2] # vram: 0x00252000
+        - [0x1520D0, .rodata, sdk/sce/ee/gcc/ee/lib/libm/kf_tan] # vram: 0x00252050
+        - [0x152118, .rodata, unklib_00252098] # vram: 0x00252098
+        - [0x152120, .rodata, sdk/sce/ee/gcc/ee/lib/libm/s_scalbn] # vram: 0x002520A0
+        - [0x152150, .rodata, sdk/sce/ee/gcc/ee/lib/libm/sf_atan] # vram: 0x002520D0
+        - [0x1521A8, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_divdi3] # vram: 0x00252128
+        - [0x1522A8, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_moddi3] # vram: 0x00252228
+        - [0x1523A8, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_udivdi3] # vram: 0x00252328
+        - [0x1524A8, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/_umoddi3] # vram: 0x00252428
+        - [0x1525A8, .rodata, unklib_00252528] # vram: 0x00252528
+        - [0x1525C0, .rodata, unklib_00252540] # vram: 0x00252540
+        - [0x1526D0, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/dtoa] # vram: 0x00252650
+        - [0x152728, .rodata, unklib_002526A8] # vram: 0x002526A8
+        - [0x152730, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/locale] # vram: 0x002526B0
+        - [0x152778, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/mprec] # vram: 0x002526F8
+        - [0x1528A0, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/strtod] # vram: 0x00252820
+        - [0x152970, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfprintf] # vram: 0x002528F0
+        - [0x152B80, .rodata, sdk/sce/ee/gcc/lib/gcc-lib/ee/version/libgcc/vfscanf] # vram: 0x00252B00
+        - [0x152FF0, .rodata, cs4/Seimei/src/Anim] # vram: 0x00252F70
+        - [0x153010, .rodata, cs4/Seimei/src/Camera] # vram: 0x00252F90
+        - [0x153038, .rodata, cs4/Seimei/src/Debug] # vram: 0x00252FB8
+        - [0x153068, .rodata, cs4/Seimei/src/Draw] # vram: 0x00252FE8
+        - [0x1530D8, .rodata, cs4/Seimei/src/File] # vram: 0x00253058
+        - [0x1530F8, .rodata, cs4/Seimei/src/Game] # vram: 0x00253078
+        - [0x153110, .rodata, cs4/Seimei/src/Load] # vram: 0x00253090
+        - [0x153148, .rodata, cs4/Seimei/src/Main] # vram: 0x002530C8
+        - [0x153318, .rodata, cs4/Seimei/src/Model] # vram: 0x0025329
+        - [0x153360, .rodata, cs4/Seimei/src/Tex] # vram: 0x002532E0
+        - [0x153398, .rodata, cs4/Seimei/src/Vmd] # vram: 0x00253318
+        - [0x1533C0, .rodata, cs4/Seimei/fslib/lib/fslibmc] # vram: 0x00253340
+        - [0x153420, .rodata, cs4/Seimei/fslib/lib/fslibsd] # vram: 0x002533A0
+        - [0x153450, .rodata, cs4/Seimei/fslib/lib/fslibsdsynth] # vram: 0x002533D0
+        - [0x153480, .rodata, cs4/Seimei/src/Map] # vram: 0x00253400
+        - [0x1537A8, .rodata, cs4/Seimei/src/String] # vram: 0x00253728
+        - [0x1537B0, .rodata, cs4/Seimei/src/My] # vram: 0x00253730
+        - [0x153800, .rodata, cs4/Seimei/src/MyThk] # vram: 0x00253780
+        - [0x153860, .rodata, cs4/Seimei/src/Dss] # vram: 0x002537E0
+        - [0x1538E0, .rodata, cs4/Seimei/src/Binder] # vram: 0x00253860
+        - [0x153900, .rodata, cs4/Seimei/lib/libaio] # vram: 0x00253880
+        - [0x1539B8, .rodata, cs4/Seimei/src/Scene] # vram: 0x00253938
+        - [0x1539F0, .rodata, cs4/Seimei/src/DepthAlpha] # vram: 0x00253970
+        - [0x153A10, .rodata, cs4/Seimei/src/Rta] # vram: 0x00253990
+        - [0x153A60, .rodata, cs4/Seimei/src/Script] # vram: 0x002539E0
+        - [0x153A80, .rodata, cs4/Seimei/fslib/lib/fslibscr] # vram: 0x00253A00
+        - [0x153BA0, .rodata, cs4/Seimei/src/EneDamage] # vram: 0x00253B20
+        - [0x153BD8, .rodata, unklib_001720A0] # vram: 0x00253B58
+        - [0x153C18, .rodata, cs4/Seimei/src/Font] # vram: 0x00253B98
+        - [0x153CA0, .rodata, cs4/Seimei/src/Dizzy] # vram: 0x00253C2
+        - [0x153CC0, .rodata, cs4/Seimei/src/Drama] # vram: 0x00253C40
+        - [0x153D38, .rodata, cs4/Seimei/src/Msg] # vram: 0x00253CB8
+        - [0x153D80, .rodata, cs4/Seimei/src/KuonMsg] # vram: 0x00253D00
+        - [0x153FC0, .rodata, cs4/Seimei/src/List] # vram: 0x00253F40
+        - [0x153FD8, .rodata, cs4/Seimei/src/util] # vram: 0x00253F58
+        - [0x153FF0, .rodata, cs4/Seimei/src/Object] # vram: 0x00253F70
+        - [0x154010, .rodata, cs4/Seimei/src/Fade] # vram: 0x00253F90
+        - [0x154070, .rodata, cs4/Seimei/src/Cdvd] # vram: 0x00253FF0
+        - [0x1540E0, .rodata, cs4/Seimei/src/Filter] # vram: 0x00254060
+        - [0x1540F0, .rodata, cs4/Seimei/src/msg_util] # vram: 0x00254070
+        - [0x154100, .rodata, cs4/Seimei/src/ItemMng] # vram: 0x00254990
+        - [0x154A20, .rodata, cs4/Seimei/src/Title] # vram: 0x002549A0
+        - [0x154D98, .rodata, cs4/Seimei/src/Peep] # vram: 0x00254D18
+        - [0x154DC0, .rodata, cs4/Seimei/src/EtcEvent] # vram: 0x00254D40
+        - [0x154DF0, .rodata, cs4/Seimei/src/FrontEnd/FrontEnd_Card] # vram: 0x00254D70
+        - [0x154E58, .rodata, cs4/Seimei/src/Param] # vram: 0x00254DD8
+        - [0x154E68, .rodata, cs4/Seimei/src/Movie] # vram: 0x00254EE8
+        - [0x154FA0, .rodata, unklib_00195CA0] # vram: 0x00254F20
+        - [0x154FD0, .rodata, cs4/Seimei/src/MsgFile] # vram: 0x00254F50
+        - [0x154FF0, .rodata, cs4/Seimei/src/MemoryCard] # vram: 0x00254F70
+        - [0x1550F0, .rodata, unklib_0019E160] # vram: 0x00255070
+        - [0x155150, .rodata, cs4/Seimei/src/Riddle] # vram: 0x002550D0
+        - [0x155168, .rodata, cs4/Seimei/src/TexEffect] # vram: 0x002550E8
+        - [0x1551F0, .rodata, cs4/Seimei/src/Sound/Sec] # vram: 0x00255170
+        - [0x155350, .rodata, cs4/Seimei/src/Sound/Snd] # vram: 0x002552D0
+        - [0x155370, .rodata, cs4/Seimei/src/Sound/SndSq] # vram: 0x002552F0
+        - [0x155390, .rodata, cs4/Seimei/src/Sound/SndVoice] # vram: 0x00255310
+        - [0x1553B8, .rodata, cs4/Seimei/src/Sound/VagStm] # vram: 0x00255338
+        - [0x155490, .rodata, cs4/Seimei/src/sfx/PtclMng] # vram: 0x00255410
+        - [0x155558, .rodata, cs4/Seimei/src/sfx/Sfx] # vram: 0x002554D8
+        - [0x155570, .rodata, cs4/Seimei/src/sfx/SfxCommon] # vram: 0x002554F0
+        - [0x1555A0, .rodata, cs4/Seimei/src/sfx/SfxDomanString] # vram: 0x00255520
+        - [0x1555E8, .rodata, cs4/Seimei/src/sfx/SfxDraw] # vram: 0x00255568
+        - [0x155618, .rodata, cs4/Seimei/src/sfx/SfxFileIO] # vram: 0x00255598
+        - [0x1557A0, .rodata, cs4/Seimei/src/sfx/SfxMng] # vram: 0x00255720
+        - [0x155860, .rodata, cs4/Seimei/src/menu/KnMenuModel] # vram: 0x002557E0
+        - [0x155B70, .rodata, cs4/Seimei/src/menu/KuonMenu] # vram: 0x00255AF0
+        - [0x155B78, .rodata, cs4/Seimei/src/menu/Menu] # vram: 0x00255AF8
+        - [0x155B98, .rodata, cs4/Seimei/src/menu/menu_util] # vram: 0x00255D98
+        - [0x156F20, .rodata, cs4/Seimei/src/menu/MenuCtrl] # vram: 0x00256EA0
+        - [0x156FB0, .rodata, cs4/Seimei/src/menu/MenuItem] # vram: 0x00256F30
+        - [0x157128, .rodata, cs4/Seimei/src/MiniGame/GameFunc] # vram: 0x002570A8
+        - [0x1572F0, .rodata, cs4/Seimei/src/MiniGame/MGAnime] # vram: 0x00257270
+        - [0x157310, .rodata, cs4/Seimei/src/MiniGame/MGLoad] # vram: 0x00257290
+        - [0x1573A8, .rodata, cs4/Seimei/src/sfx/SfxBugs] # vram: 0x00257328
+        - [0x1573B8, .rodata, cs4/Seimei/src/sfx/SfxFog] # vram: 0x00257338
+        - [0x1573F0, .rodata, cs4/Seimei/src/Event0031] # vram: 0x00257370
+        - [0x157410, .rodata, cs4/Seimei/src/MiniGame/sgh/sghDice] # vram: 0x00257390
+        - [0x157460, .rodata, cs4/Seimei/src/MiniGame/sgh/sghMsg] # vram: 0x002573E0
+        - [0x157470, .rodata, cs4/Seimei/src/menu/MenuTD] # vram: 0x002573F0
+        - [0x1574D8, .rodata, unklib_00215AF0] # vram: 0x00257458
 
-        - [0x157580, sdata, cs4/Seimei/src/Draw] # vram: 0x00257500
-        - [0x157584, sdata, cs4/Seimei/src/Game] # vram: 0x00257504
-        - [0x157588, sdata, cs4/Seimei/src/Load] # vram: 0x00257508
-        - [0x157598, sdata, cs4/Seimei/src/Vram] # vram: 0x00257518
-        - [0x15759C, sdata, cs4/Seimei/fslib/lib/fslibsd] # vram: 0x0025751C
-        - [0x1575A0, sdata, cs4/Seimei/src/MyAct] # vram: 0x00257520
-        - [0x1575A8, sdata, cs4/Seimei/src/Binder] # vram: 0x00257528
-        - [0x1575B0, sdata, cs4/Seimei/src/Scene] # vram: 0x00257530
-        - [0x1575B8, sdata, cs4/Seimei/src/Rta] # vram: 0x00257538
-        - [0x1575BC, sdata, cs4/Seimei/src/Font] # vram: 0x0025753C
-        - [0x1575C4, sdata, cs4/Seimei/src/Dizzy] # vram: 0x00257544
-        - [0x1575CC, sdata, cs4/Seimei/src/Drama] # vram: 0x0025754C
-        - [0x1575D0, sdata, cs4/Seimei/src/Fade] # vram: 0x00257550
-        - [0x1575E0, sdata, cs4/Seimei/src/Cdvd] # vram: 0x00257560
-        - [0x1575F0, sdata, cs4/Seimei/src/ItemMng] # vram: 0x00257570
-        - [0x157610, sdata, cs4/Seimei/src/Title] # vram: 0x00257590
-        - [0x15762C, sdata, cs4/Seimei/src/FrontEnd/FrontEnd_Card] # vram: 0x002575AC
-        - [0x157638, sdata, unklib_00195CA0] # vram: 0x002575B8
-        - [0x15763C, sdata, cs4/Seimei/src/MemoryCard] # vram: 0x002575BC
-        - [0x157640, sdata, unklib_0019E160] # vram: 0x002575C0
-        - [0x157654, sdata, cs4/Seimei/src/Sound/SndSq] # vram: 0x002575D4
-        - [0x157658, sdata, cs4/Seimei/src/Sound/SndVoice] # vram: 0x002575D8
-        - [0x15766C, sdata, cs4/Seimei/src/sfx/Sfx] # vram: 0x002575EC
-        - [0x157670, sdata, cs4/Seimei/src/sfx/SfxCommon] # vram: 0x002575F0
-        - [0x157678, sdata, cs4/Seimei/src/sfx/SfxDomanString] # vram: 0x002575F8
-        - [0x15768C, sdata, cs4/Seimei/src/sfx/SfxMng] # vram: 0x0025760C
-        - [0x157694, sdata, cs4/Seimei/src/sfx/SfxPLight] # vram: 0x00257614
-        - [0x157698, sdata, cs4/Seimei/src/menu/KnMenuModel] # vram: 0x00257618
-        - [0x1576B8, sdata, cs4/Seimei/src/menu/KnMenuWind] # vram: 0x00257638
-        - [0x1576C8, sdata, cs4/Seimei/src/menu/KuonMenu] # vram: 0x00257648
-        - [0x1576CC, sdata, cs4/Seimei/src/menu/menu_util] # vram: 0x0025764C
-        - [0x15770C, sdata, cs4/Seimei/src/MiniGame/GameFunc] # vram: 0x0025768C
-        - [0x157888, sdata, cs4/Seimei/src/MiniGame/MGSprite] # vram: 0x00257808
-        - [0x157890, sdata, cs4/Seimei/src/MiniGame/TMKSpriteInit] # vram: 0x00257810
-        - [0x1578B0, sdata, cs4/Seimei/src/MiniGame/sgh/sghMsg] # vram: 0x00257830
-        - [0x1578D8, sdata, cs4/Seimei/src/menu/MenuTD] # vram: 0x00257858
+        - [0x157580, .sdata, cs4/Seimei/src/Draw] # vram: 0x00257500
+        - [0x157584, .sdata, cs4/Seimei/src/Game] # vram: 0x00257504
+        - [0x157588, .sdata, cs4/Seimei/src/Load] # vram: 0x00257508
+        - [0x157598, .sdata, cs4/Seimei/src/Vram] # vram: 0x00257518
+        - [0x15759C, .sdata, cs4/Seimei/fslib/lib/fslibsd] # vram: 0x0025751C
+        - [0x1575A0, .sdata, cs4/Seimei/src/MyAct] # vram: 0x00257520
+        - [0x1575A8, .sdata, cs4/Seimei/src/Binder] # vram: 0x00257528
+        - [0x1575B0, .sdata, cs4/Seimei/src/Scene] # vram: 0x00257530
+        - [0x1575B8, .sdata, cs4/Seimei/src/Rta] # vram: 0x00257538
+        - [0x1575BC, .sdata, cs4/Seimei/src/Font] # vram: 0x0025753C
+        - [0x1575C4, .sdata, cs4/Seimei/src/Dizzy] # vram: 0x00257544
+        - [0x1575CC, .sdata, cs4/Seimei/src/Drama] # vram: 0x0025754C
+        - [0x1575D0, .sdata, cs4/Seimei/src/Fade] # vram: 0x00257550
+        - [0x1575E0, .sdata, cs4/Seimei/src/Cdvd] # vram: 0x00257560
+        - [0x1575F0, .sdata, cs4/Seimei/src/ItemMng] # vram: 0x00257570
+        - [0x157610, .sdata, cs4/Seimei/src/Title] # vram: 0x00257590
+        - [0x15762C, .sdata, cs4/Seimei/src/FrontEnd/FrontEnd_Card] # vram: 0x002575AC
+        - [0x157638, .sdata, unklib_00195CA0] # vram: 0x002575B8
+        - [0x15763C, .sdata, cs4/Seimei/src/MemoryCard] # vram: 0x002575BC
+        - [0x157640, .sdata, unklib_0019E160] # vram: 0x002575C0
+        - [0x157654, .sdata, cs4/Seimei/src/Sound/SndSq] # vram: 0x002575D4
+        - [0x157658, .sdata, cs4/Seimei/src/Sound/SndVoice] # vram: 0x002575D8
+        - [0x15766C, .sdata, cs4/Seimei/src/sfx/Sfx] # vram: 0x002575EC
+        - [0x157670, .sdata, cs4/Seimei/src/sfx/SfxCommon] # vram: 0x002575F0
+        - [0x157678, .sdata, cs4/Seimei/src/sfx/SfxDomanString] # vram: 0x002575F8
+        - [0x15768C, .sdata, cs4/Seimei/src/sfx/SfxMng] # vram: 0x0025760C
+        - [0x157694, .sdata, cs4/Seimei/src/sfx/SfxPLight] # vram: 0x00257614
+        - [0x157698, .sdata, cs4/Seimei/src/menu/KnMenuModel] # vram: 0x00257618
+        - [0x1576B8, .sdata, cs4/Seimei/src/menu/KnMenuWind] # vram: 0x00257638
+        - [0x1576C8, .sdata, cs4/Seimei/src/menu/KuonMenu] # vram: 0x00257648
+        - [0x1576CC, .sdata, cs4/Seimei/src/menu/menu_util] # vram: 0x0025764C
+        - [0x15770C, .sdata, cs4/Seimei/src/MiniGame/GameFunc] # vram: 0x0025768C
+        - [0x157888, .sdata, cs4/Seimei/src/MiniGame/MGSprite] # vram: 0x00257808
+        - [0x157890, .sdata, cs4/Seimei/src/MiniGame/TMKSpriteInit] # vram: 0x00257810
+        - [0x1578B0, .sdata, cs4/Seimei/src/MiniGame/sgh/sghMsg] # vram: 0x00257830
+        - [0x1578D8, .sdata, cs4/Seimei/src/menu/MenuTD] # vram: 0x00257858
 
-        - { vram: 0x00257880, type: sbss, name: cs4/Seimei/src/Anim}
-        - { vram: 0x00257888, type: sbss, name: cs4/Seimei/src/Camera}
-        - { vram: 0x00257890, type: sbss, name: cs4/Seimei/src/Debug}
-        - { vram: 0x00257894, type: sbss, name: cs4/Seimei/src/File}
-        - { vram: 0x00257898, type: sbss, name: cs4/Seimei/src/Game}
-        - { vram: 0x0025789C, type: sbss, name: cs4/Seimei/src/Load}
-        - { vram: 0x002578A4, type: sbss, name: cs4/Seimei/src/Main}
-        - { vram: 0x002578B0, type: sbss, name: cs4/Seimei/src/Model}
-        - { vram: 0x002578B8, type: sbss, name: cs4/Seimei/src/Pad}
-        - { vram: 0x002578D8, type: sbss, name: cs4/Seimei/fslib/lib/fslibmc}
-        - { vram: 0x00257924, type: sbss, name: cs4/Seimei/fslib/lib/fslibsd}
-        - { vram: 0x0025792C, type: sbss, name: cs4/Seimei/fslib/lib/fslibsdsynth}
-        - { vram: 0x00257940, type: sbss, name: cs4/Seimei/src/Memory}
-        - { vram: 0x00257950, type: sbss, name: cs4/Seimei/src/Map}
-        - { vram: 0x00257954, type: sbss, name: cs4/Seimei/src/My}
-        - { vram: 0x0025795C, type: sbss, name: cs4/Seimei/src/Damage}
-        - { vram: 0x00257960, type: sbss, name: cs4/Seimei/src/Hmd}
-        - { vram: 0x00257964, type: sbss, name: cs4/Seimei/src/Binder}
-        - { vram: 0x00257968, type: sbss, name: cs4/Seimei/lib/libaio}
-        - { vram: 0x00257974, type: sbss, name: cs4/Seimei/lib/Shadow}
-        - { vram: 0x00257978, type: sbss, name: cs4/Seimei/src/Scene}
-        - { vram: 0x00257988, type: sbss, name: cs4/Seimei/src/DepthAlpha}
-        - { vram: 0x0025798C, type: sbss, name: cs4/Seimei/src/Rta}
-        - { vram: 0x00257990, type: sbss, name: cs4/Seimei/src/Script}
-        - { vram: 0x00257994, type: sbss, name: cs4/Seimei/fslib/lib/fslibscr}
-        - { vram: 0x002579A0, type: sbss, name: cs4/Seimei/fslib/lib/FsFont}
-        - { vram: 0x002579A4, type: sbss, name: cs4/Seimei/fslib/lib/FsFontDraw}
-        - { vram: 0x002579B0, type: sbss, name: cs4/Seimei/src/Font}
-        - { vram: 0x002579E0, type: sbss, name: cs4/Seimei/src/Dizzy}
-        - { vram: 0x002579E8, type: sbss, name: cs4/Seimei/src/Blast}
-        - { vram: 0x002579EC, type: sbss, name: cs4/Seimei/src/Filter}
-        - { vram: 0x00257A0C, type: sbss, name: cs4/Seimei/src/msg_util}
-        - { vram: 0x00257A14, type: sbss, name: cs4/Seimei/src/Title}
-        - { vram: 0x00257A24, type: sbss, name: cs4/Seimei/src/FrontEnd/FrontEnd_Card}
-        - { vram: 0x00257A34, type: sbss, name: cs4/Seimei/src/Param}
-        - { vram: 0x00257A38, type: sbss, name: cs4/Seimei/src/Movie}
-        - { vram: 0x00257A44, type: sbss, name: unklib_00195CA0}
-        - { vram: 0x00257A78, type: sbss, name: cs4/Seimei/src/MemoryCard}
-        - { vram: 0x00257A7C, type: sbss, name: unklib_0019E160}
-        - { vram: 0x00257A9C, type: sbss, name: cs4/Seimei/src/Mirror}
-        - { vram: 0x00257AA0, type: sbss, name: cs4/Seimei/src/Sound/Snd}
-        - { vram: 0x00257AC4, type: sbss, name: cs4/Seimei/src/Sound/SndSq}
-        - { vram: 0x00257AC8, type: sbss, name: cs4/Seimei/src/Sound/SndVoice}
-        - { vram: 0x00257AE0, type: sbss, name: cs4/Seimei/src/Sound/VagStm}
-        - { vram: 0x00257AF0, type: sbss, name: cs4/Seimei/src/sfx/PtclMng}
-        - { vram: 0x00257AF4, type: sbss, name: cs4/Seimei/src/sfx/Sfx}
-        - { vram: 0x00257B08, type: sbss, name: cs4/Seimei/src/sfx/SfxCommon}
-        - { vram: 0x00257B10, type: sbss, name: cs4/Seimei/src/sfx/SfxDomanString}
-        - { vram: 0x00257B2C, type: sbss, name: cs4/Seimei/src/sfx/SfxDraw}
-        - { vram: 0x00257B38, type: sbss, name: cs4/Seimei/src/sfx/SfxFileIO}
-        - { vram: 0x00257B50, type: sbss, name: cs4/Seimei/src/sfx/SfxFlicker}
-        - { vram: 0x00257B80, type: sbss, name: cs4/Seimei/src/sfx/SfxMng}
-        - { vram: 0x00257B84, type: sbss, name: cs4/Seimei/src/sfx/SfxModel}
-        - { vram: 0x00257B88, type: sbss, name: cs4/Seimei/src/sfx/SfxPLight}
-        - { vram: 0x00257B8C, type: sbss, name: cs4/Seimei/src/sfx/SfxPostEffect}
-        - { vram: 0x00257B90, type: sbss, name: cs4/Seimei/src/sfx/SfxTracer}
-        - { vram: 0x00257B98, type: sbss, name: cs4/Seimei/src/menu/KnMenuModel}
-        - { vram: 0x00257BCC, type: sbss, name: cs4/Seimei/src/menu/KnMenuWind}
-        - { vram: 0x00257BDC, type: sbss, name: cs4/Seimei/src/menu/KuonMenu}
-        - { vram: 0x00257BE8, type: sbss, name: cs4/Seimei/src/menu/menu_util}
-        - { vram: 0x00257CA4, type: sbss, name: cs4/Seimei/src/MiniGame/MGAnime}
-        - { vram: 0x00257CA8, type: sbss, name: cs4/Seimei/src/MiniGame/MGInit}
-        - { vram: 0x00257CB4, type: sbss, name: cs4/Seimei/src/MiniGame/MGLoad}
-        - { vram: 0x00257CB8, type: sbss, name: cs4/Seimei/src/MiniGame/MGPad}
-        - { vram: 0x00257CCC, type: sbss, name: cs4/Seimei/src/MiniGame/MiniGame}
-        - { vram: 0x00257CF0, type: sbss, name: cs4/Seimei/src/sfx/SfxBugs}
-        - { vram: 0x00257CF8, type: sbss, name: cs4/Seimei/src/MiniGame/sgh/sghEneThk}
-        - { vram: 0x00257CFC, type: sbss, name: cs4/Seimei/src/MiniGame/sgh/sghTime}
-        - { vram: 0x00257D00, type: sbss, name: cs4/Seimei/src/menu/MenuTD}
-        - { vram: 0x00257D08, type: sbss, name: cs4/Seimei/src/sfx/SfxScriptIF}
-        - { vram: 0x00257D0C, type: sbss, name: unklib_00215AF0}
+        - { vram: 0x00257880, type: .sbss, name: cs4/Seimei/src/Anim}
+        - { vram: 0x00257888, type: .sbss, name: cs4/Seimei/src/Camera}
+        - { vram: 0x00257890, type: .sbss, name: cs4/Seimei/src/Debug}
+        - { vram: 0x00257894, type: .sbss, name: cs4/Seimei/src/File}
+        - { vram: 0x00257898, type: .sbss, name: cs4/Seimei/src/Game}
+        - { vram: 0x0025789C, type: .sbss, name: cs4/Seimei/src/Load}
+        - { vram: 0x002578A4, type: .sbss, name: cs4/Seimei/src/Main}
+        - { vram: 0x002578B0, type: .sbss, name: cs4/Seimei/src/Model}
+        - { vram: 0x002578B8, type: .sbss, name: cs4/Seimei/src/Pad}
+        - { vram: 0x002578D8, type: .sbss, name: cs4/Seimei/fslib/lib/fslibmc}
+        - { vram: 0x00257924, type: .sbss, name: cs4/Seimei/fslib/lib/fslibsd}
+        - { vram: 0x0025792C, type: .sbss, name: cs4/Seimei/fslib/lib/fslibsdsynth}
+        - { vram: 0x00257940, type: .sbss, name: cs4/Seimei/src/Memory}
+        - { vram: 0x00257950, type: .sbss, name: cs4/Seimei/src/Map}
+        - { vram: 0x00257954, type: .sbss, name: cs4/Seimei/src/My}
+        - { vram: 0x0025795C, type: .sbss, name: cs4/Seimei/src/Damage}
+        - { vram: 0x00257960, type: .sbss, name: cs4/Seimei/src/Hmd}
+        - { vram: 0x00257964, type: .sbss, name: cs4/Seimei/src/Binder}
+        - { vram: 0x00257968, type: .sbss, name: cs4/Seimei/lib/libaio}
+        - { vram: 0x00257974, type: .sbss, name: cs4/Seimei/lib/Shadow}
+        - { vram: 0x00257978, type: .sbss, name: cs4/Seimei/src/Scene}
+        - { vram: 0x00257988, type: .sbss, name: cs4/Seimei/src/DepthAlpha}
+        - { vram: 0x0025798C, type: .sbss, name: cs4/Seimei/src/Rta}
+        - { vram: 0x00257990, type: .sbss, name: cs4/Seimei/src/Script}
+        - { vram: 0x00257994, type: .sbss, name: cs4/Seimei/fslib/lib/fslibscr}
+        - { vram: 0x002579A0, type: .sbss, name: cs4/Seimei/fslib/lib/FsFont}
+        - { vram: 0x002579A4, type: .sbss, name: cs4/Seimei/fslib/lib/FsFontDraw}
+        - { vram: 0x002579B0, type: .sbss, name: cs4/Seimei/src/Font}
+        - { vram: 0x002579E0, type: .sbss, name: cs4/Seimei/src/Dizzy}
+        - { vram: 0x002579E8, type: .sbss, name: cs4/Seimei/src/Blast}
+        - { vram: 0x002579EC, type: .sbss, name: cs4/Seimei/src/Filter}
+        - { vram: 0x00257A0C, type: .sbss, name: cs4/Seimei/src/msg_util}
+        - { vram: 0x00257A14, type: .sbss, name: cs4/Seimei/src/Title}
+        - { vram: 0x00257A24, type: .sbss, name: cs4/Seimei/src/FrontEnd/FrontEnd_Card}
+        - { vram: 0x00257A34, type: .sbss, name: cs4/Seimei/src/Param}
+        - { vram: 0x00257A38, type: .sbss, name: cs4/Seimei/src/Movie}
+        - { vram: 0x00257A44, type: .sbss, name: unklib_00195CA0}
+        - { vram: 0x00257A78, type: .sbss, name: cs4/Seimei/src/MemoryCard}
+        - { vram: 0x00257A7C, type: .sbss, name: unklib_0019E160}
+        - { vram: 0x00257A9C, type: .sbss, name: cs4/Seimei/src/Mirror}
+        - { vram: 0x00257AA0, type: .sbss, name: cs4/Seimei/src/Sound/Snd}
+        - { vram: 0x00257AC4, type: .sbss, name: cs4/Seimei/src/Sound/SndSq}
+        - { vram: 0x00257AC8, type: .sbss, name: cs4/Seimei/src/Sound/SndVoice}
+        - { vram: 0x00257AE0, type: .sbss, name: cs4/Seimei/src/Sound/VagStm}
+        - { vram: 0x00257AF0, type: .sbss, name: cs4/Seimei/src/sfx/PtclMng}
+        - { vram: 0x00257AF4, type: .sbss, name: cs4/Seimei/src/sfx/Sfx}
+        - { vram: 0x00257B08, type: .sbss, name: cs4/Seimei/src/sfx/SfxCommon}
+        - { vram: 0x00257B10, type: .sbss, name: cs4/Seimei/src/sfx/SfxDomanString}
+        - { vram: 0x00257B2C, type: .sbss, name: cs4/Seimei/src/sfx/SfxDraw}
+        - { vram: 0x00257B38, type: .sbss, name: cs4/Seimei/src/sfx/SfxFileIO}
+        - { vram: 0x00257B50, type: .sbss, name: cs4/Seimei/src/sfx/SfxFlicker}
+        - { vram: 0x00257B80, type: .sbss, name: cs4/Seimei/src/sfx/SfxMng}
+        - { vram: 0x00257B84, type: .sbss, name: cs4/Seimei/src/sfx/SfxModel}
+        - { vram: 0x00257B88, type: .sbss, name: cs4/Seimei/src/sfx/SfxPLight}
+        - { vram: 0x00257B8C, type: .sbss, name: cs4/Seimei/src/sfx/SfxPostEffect}
+        - { vram: 0x00257B90, type: .sbss, name: cs4/Seimei/src/sfx/SfxTracer}
+        - { vram: 0x00257B98, type: .sbss, name: cs4/Seimei/src/menu/KnMenuModel}
+        - { vram: 0x00257BCC, type: .sbss, name: cs4/Seimei/src/menu/KnMenuWind}
+        - { vram: 0x00257BDC, type: .sbss, name: cs4/Seimei/src/menu/KuonMenu}
+        - { vram: 0x00257BE8, type: .sbss, name: cs4/Seimei/src/menu/menu_util}
+        - { vram: 0x00257CA4, type: .sbss, name: cs4/Seimei/src/MiniGame/MGAnime}
+        - { vram: 0x00257CA8, type: .sbss, name: cs4/Seimei/src/MiniGame/MGInit}
+        - { vram: 0x00257CB4, type: .sbss, name: cs4/Seimei/src/MiniGame/MGLoad}
+        - { vram: 0x00257CB8, type: .sbss, name: cs4/Seimei/src/MiniGame/MGPad}
+        - { vram: 0x00257CCC, type: .sbss, name: cs4/Seimei/src/MiniGame/MiniGame}
+        - { vram: 0x00257CF0, type: .sbss, name: cs4/Seimei/src/sfx/SfxBugs}
+        - { vram: 0x00257CF8, type: .sbss, name: cs4/Seimei/src/MiniGame/sgh/sghEneThk}
+        - { vram: 0x00257CFC, type: .sbss, name: cs4/Seimei/src/MiniGame/sgh/sghTime}
+        - { vram: 0x00257D00, type: .sbss, name: cs4/Seimei/src/menu/MenuTD}
+        - { vram: 0x00257D08, type: .sbss, name: cs4/Seimei/src/sfx/SfxScriptIF}
+        - { vram: 0x00257D0C, type: .sbss, name: unklib_00215AF0}
 
-        - { vram: 0x00257D80, type: bss, name: sdk/sce/ee/crt0}
-        - { vram: 0x00257EC8, type: bss, name: sdk/sce/ee/libdma/libdma}
-        - { vram: 0x00257F00, type: bss, name: sdk/sce/ee/libmpeg/mpc}
-        - { vram: 0x00258100, type: bss, name: sdk/sce/ee/libkernl/thread}
-        - { vram: 0x00258910, type: bss, name: sdk/sce/ee/libkernl/deci2}
-        - { vram: 0x00258940, type: bss, name: sdk/sce/ee/libkernl/tty}
-        - { vram: 0x00258D00, type: bss, name: sdk/sce/ee/libkernl/kprintf}
-        - { vram: 0x00258D80, type: bss, name: sdk/sce/ee/libkernl/sifcmd}
-        - { vram: 0x00259080, type: bss, name: sdk/sce/ee/libkernl/sifrpc}
-        - { vram: 0x0025A8C0, type: bss, name: sdk/sce/ee/libkernl/filestub}
-        - { vram: 0x0025C100, type: bss, name: sdk/sce/ee/libkernl/iopheap}
-        - { vram: 0x0025C2C0, type: bss, name: sdk/sce/ee/libkernl/eeloadfile}
-        - { vram: 0x0025C500, type: bss, name: sdk/sce/ee/libkernl/iopreset}
-        - { vram: 0x0025C580, type: bss, name: sdk/sce/ee/libkernl/tlbtrap}
-        - { vram: 0x0025D7C0, type: bss, name: sdk/sce/ee/libkernl/timer}
-        - { vram: 0x0025F7C0, type: bss, name: sdk/sce/ee/libkernl/timeralarm}
-        - { vram: 0x0025FBC8, type: bss, name: sdk/sce/ee/libkernl/iopnotify}
-        - { vram: 0x0025FE00, type: bss, name: sdk/sce/ee/libpad/libpad}
-        - { vram: 0x002600C0, type: bss, name: sdk/sce/ee/libsdr/sdr_main}
-        - { vram: 0x00260180, type: bss, name: sdk/sce/ee/libcdvd/cdvd000}
-        - { vram: 0x00260418, type: bss, name: sdk/sce/ee/libcdvd/cdvd047}
-        - { vram: 0x00260440, type: bss, name: sdk/sce/ee/libmc/libmc}
-        - { vram: 0x00261A40, type: bss, name: cs4/Seimei/src/Camera}
-        - { vram: 0x00324E80, type: bss, name: cs4/Seimei/src/Debug}
-        - { vram: 0x00324EC0, type: bss, name: cs4/Seimei/src/Draw}
-        - { vram: 0x003254B0, type: bss, name: cs4/Seimei/src/File}
-        - { vram: 0x003255B0, type: bss, name: cs4/Seimei/src/Load}
-        - { vram: 0x003A5E10, type: bss, name: cs4/Seimei/src/Main}
-        # - { vram: 0x003A5E40, type: bss, name: cs4/Seimei/src/Model} # maybe MathUtil?
-        - { vram: 0x003A5E50, type: bss, name: cs4/Seimei/src/Model}
-        - { vram: 0x006F51D0, type: bss, name: cs4/Seimei/src/Pad}
-        - { vram: 0x006F5390, type: bss, name: cs4/Seimei/src/Sprite}
-        - { vram: 0x006F5690, type: bss, name: cs4/Seimei/src/Tex}
-        - { vram: 0x007816A0, type: bss, name: cs4/Seimei/src/Vram}
-        - { vram: 0x007816C0, type: bss, name: cs4/Seimei/fslib/lib/fslibmc}
-        - { vram: 0x00781C00, type: bss, name: cs4/Seimei/fslib/lib/fslibpa2}
-        - { vram: 0x00782A40, type: bss, name: cs4/Seimei/fslib/lib/fslibsd}
-        - { vram: 0x00784040, type: bss, name: cs4/Seimei/fslib/lib/fslibsdsynth}
-        - { vram: 0x00784BC0, type: bss, name: cs4/Seimei/src/Memory}
-        - { vram: 0x00792BC0, type: bss, name: cs4/Seimei/src/Map}
-        - { vram: 0x007938E0, type: bss, name: cs4/Seimei/src/My}
-        - { vram: 0x008FA150, type: bss, name: cs4/Seimei/src/Dss}
-        - { vram: 0x008FAAB0, type: bss, name: cs4/Seimei/src/Damage}
-        - { vram: 0x008FC2B0, type: bss, name: cs4/Seimei/src/Hmd}
-        - { vram: 0x008FC2C0, type: bss, name: cs4/Seimei/src/Binder}
-        - { vram: 0x00969A50, type: bss, name: cs4/Seimei/src/Ene}
-        - { vram: 0x00974D80, type: bss, name: cs4/Seimei/src/PointLight}
-        - { vram: 0x009750C0, type: bss, name: cs4/Seimei/lib/libaio}
-        - { vram: 0x009782F0, type: bss, name: cs4/Seimei/lib/Shadow}
-        - { vram: 0x009783C0, type: bss, name: cs4/Seimei/src/DepthAlpha}
-        - { vram: 0x009B43C0, type: bss, name: cs4/Seimei/src/Rta}
-        - { vram: 0x009B5120, type: bss, name: cs4/Seimei/src/Script}
-        - { vram: 0x009B5220, type: bss, name: cs4/Seimei/fslib/lib/fslibscr}
-        - { vram: 0x009C8CE0, type: bss, name: cs4/Seimei/src/EneDamage}
-        - { vram: 0x009C8E50, type: bss, name: cs4/Seimei/fslib/lib/FsFont}
-        - { vram: 0x009C8FB0, type: bss, name: cs4/Seimei/fslib/lib/FsFontDraw}
-        - { vram: 0x009EE7B0, type: bss, name: cs4/Seimei/src/Font}
-        - { vram: 0x009EF000, type: bss, name: cs4/Seimei/src/Dizzy}
-        - { vram: 0x00A00780, type: bss, name: cs4/Seimei/src/Drama}
-        - { vram: 0x00A00910, type: bss, name: cs4/Seimei/src/Msg}
-        - { vram: 0x00A00A10, type: bss, name: cs4/Seimei/src/KuonMsg}
-        # - { vram: 0x00A00C70, type: bss, name: cs4/Seimei/src/KuonMsg} # has g_TmpMenuMng, mayyybe part of List or Util?
-        - { vram: 0x00A00CB0, type: bss, name: cs4/Seimei/src/Object}
-        - { vram: 0x00A00FC0, type: bss, name: cs4/Seimei/src/Fade}
-        - { vram: 0x00A00FF0, type: bss, name: cs4/Seimei/src/Blast}
-        - { vram: 0x00A010F0, type: bss, name: cs4/Seimei/src/Light}
-        - { vram: 0x00A01200, type: bss, name: cs4/Seimei/src/Cdvd}
-        - { vram: 0x00A15E00, type: bss, name: cs4/Seimei/src/Filter}
-        - { vram: 0x00A2B690, type: bss, name: cs4/Seimei/src/DrawOT}
-        - { vram: 0x00A2F6B0, type: bss, name: cs4/Seimei/src/ItemMng}
-        - { vram: 0x00A33060, type: bss, name: cs4/Seimei/src/Title}
-        - { vram: 0x00A330B0, type: bss, name: cs4/Seimei/src/Peep}
-        - { vram: 0x00A330C0, type: bss, name: cs4/Seimei/src/EtcEvent}
-        - { vram: 0x00A33110, type: bss, name: cs4/Seimei/src/FrontEnd/FrontEnd_Card}
-        - { vram: 0x00A332A0, type: bss, name: cs4/Seimei/src/Movie}
-        - { vram: 0x00A332F0, type: bss, name: unklib_00195CA0}
-        - { vram: 0x00A33330, type: bss, name: cs4/Seimei/src/MemoryCard}
-        - { vram: 0x00A33980, type: bss, name: cs4/Seimei/src/MultiStm}
-        - { vram: 0x00A341A0, type: bss, name: unklib_0019E160}
-        - { vram: 0x00A37090, type: bss, name: cs4/Seimei/src/Mirror}
-        - { vram: 0x00A37EF0, type: bss, name: cs4/Seimei/src/Riddle}
-        - { vram: 0x00A38070, type: bss, name: cs4/Seimei/src/MovePath}
-        - { vram: 0x00A3A270, type: bss, name: cs4/Seimei/src/TexEffect}
-        - { vram: 0x00A3C890, type: bss, name: cs4/Seimei/src/Sound/Snd}
-        - { vram: 0x00A3EE40, type: bss, name: cs4/Seimei/src/Sound/SndReverb}
-        - { vram: 0x00A3EE58, type: bss, name: cs4/Seimei/src/Sound/SndSq}
-        - { vram: 0x00A3EE70, type: bss, name: cs4/Seimei/src/Sound/SndVoice}
-        - { vram: 0x00A40480, type: bss, name: cs4/Seimei/src/Sound/VagStm}
-        - { vram: 0x00A40960, type: bss, name: cs4/Seimei/src/sfx/PtclMng}
-        - { vram: 0x00A40DA0, type: bss, name: cs4/Seimei/src/sfx/Sfx}
-        - { vram: 0x00A415B0, type: bss, name: cs4/Seimei/src/sfx/SfxCommon}
-        - { vram: 0x00A42B80, type: bss, name: cs4/Seimei/src/sfx/SfxDebug_TmrGraph}
-        - { vram: 0x00A42BE0, type: bss, name: cs4/Seimei/src/sfx/SfxDomanString}
-        - { vram: 0x00A42C80, type: bss, name: cs4/Seimei/src/sfx/SfxDraw}
-        - { vram: 0x00A42CA0, type: bss, name: cs4/Seimei/src/sfx/SfxFlicker}
-        - { vram: 0x00A43270, type: bss, name: cs4/Seimei/src/sfx/SfxMng}
-        - { vram: 0x00A456B0, type: bss, name: cs4/Seimei/src/sfx/SfxModel}
-        - { vram: 0x00A45AB0, type: bss, name: cs4/Seimei/src/sfx/SfxPLight}
-        - { vram: 0x00A45EB0, type: bss, name: cs4/Seimei/src/sfx/SfxPostEffect}
-        - { vram: 0x00A45EC0, type: bss, name: cs4/Seimei/src/sfx/SfxTracer}
-        - { vram: 0x00A48AC0, type: bss, name: cs4/Seimei/src/menu/KnMenuModel}
-        - { vram: 0x00A48D00, type: bss, name: cs4/Seimei/src/menu/KnMenuWind}
-        - { vram: 0x00A48D30, type: bss, name: cs4/Seimei/src/menu/KuonMenu}
-        - { vram: 0x00A48E00, type: bss, name: cs4/Seimei/src/menu/menu_util}
-        - { vram: 0x00A4ABB0, type: bss, name: cs4/Seimei/src/menu/MenuCtrl}
-        - { vram: 0x00A4ABD0, type: bss, name: cs4/Seimei/src/menu/MenuItem}
-        - { vram: 0x00A4AED0, type: bss, name: cs4/Seimei/src/MiniGame/MGAnime}
-        - { vram: 0x00A4B970, type: bss, name: cs4/Seimei/src/MiniGame/MGInit} # could also be cs4/Seimei/src/MiniGame/MiniGame
-        - { vram: 0x00A4B9E0, type: bss, name: cs4/Seimei/src/MiniGame/MiniGame}
-        - { vram: 0x00A51020, type: bss, name: cs4/Seimei/src/sfx/SfxBugs}
-        - { vram: 0x00A58820, type: bss, name: cs4/Seimei/src/sfx/SfxFog}
-        - { vram: 0x00A58CC0, type: bss, name: cs4/Seimei/fslib/lib/fsspummng}
-        - { vram: 0x00A58E50, type: bss, name: cs4/Seimei/src/Event}
-        - { vram: 0x00A5A110, type: bss, name: cs4/Seimei/src/MiniGame/sgh/sgh}
-        - { vram: 0x00A5A120, type: bss, name: cs4/Seimei/src/MiniGame/sgh/sghDice}
-        - { vram: 0x00A5A1E0, type: bss, name: cs4/Seimei/src/MiniGame/sgh/sghEneThk}
-        - { vram: 0x00A5A2A0, type: bss, name: cs4/Seimei/src/MiniGame/sgh/sghKoma}
-        - { vram: 0x00A5A8A0, type: bss, name: cs4/Seimei/src/MiniGame/sgh/sghMap}
-        - { vram: 0x00A5AA70, type: bss, name: cs4/Seimei/src/MiniGame/sgh/sghPad}
-        - { vram: 0x00A5AAC0, type: bss, name: cs4/Seimei/src/menu/MenuTD}
-        - { vram: 0x00A5B060, type: bss, name: unklib_00215AF0}
+        - { vram: 0x00257D80, type: .bss, name: sdk/sce/ee/crt0}
+        - { vram: 0x00257EC8, type: .bss, name: sdk/sce/ee/libdma/libdma}
+        - { vram: 0x00257F00, type: .bss, name: sdk/sce/ee/libmpeg/mpc}
+        - { vram: 0x00258100, type: .bss, name: sdk/sce/ee/libkernl/thread}
+        - { vram: 0x00258910, type: .bss, name: sdk/sce/ee/libkernl/deci2}
+        - { vram: 0x00258940, type: .bss, name: sdk/sce/ee/libkernl/tty}
+        - { vram: 0x00258D00, type: .bss, name: sdk/sce/ee/libkernl/kprintf}
+        - { vram: 0x00258D80, type: .bss, name: sdk/sce/ee/libkernl/sifcmd}
+        - { vram: 0x00259080, type: .bss, name: sdk/sce/ee/libkernl/sifrpc}
+        - { vram: 0x0025A8C0, type: .bss, name: sdk/sce/ee/libkernl/filestub}
+        - { vram: 0x0025C100, type: .bss, name: sdk/sce/ee/libkernl/iopheap}
+        - { vram: 0x0025C2C0, type: .bss, name: sdk/sce/ee/libkernl/eeloadfile}
+        - { vram: 0x0025C500, type: .bss, name: sdk/sce/ee/libkernl/iopreset}
+        - { vram: 0x0025C580, type: .bss, name: sdk/sce/ee/libkernl/tlbtrap}
+        - { vram: 0x0025D7C0, type: .bss, name: sdk/sce/ee/libkernl/timer}
+        - { vram: 0x0025F7C0, type: .bss, name: sdk/sce/ee/libkernl/timeralarm}
+        - { vram: 0x0025FBC8, type: .bss, name: sdk/sce/ee/libkernl/iopnotify}
+        - { vram: 0x0025FE00, type: .bss, name: sdk/sce/ee/libpad/libpad}
+        - { vram: 0x002600C0, type: .bss, name: sdk/sce/ee/libsdr/sdr_main}
+        - { vram: 0x00260180, type: .bss, name: sdk/sce/ee/libcdvd/cdvd000}
+        - { vram: 0x00260418, type: .bss, name: sdk/sce/ee/libcdvd/cdvd047}
+        - { vram: 0x00260440, type: .bss, name: sdk/sce/ee/libmc/libmc}
+        - { vram: 0x00261A40, type: .bss, name: cs4/Seimei/src/Camera}
+        - { vram: 0x00324E80, type: .bss, name: cs4/Seimei/src/Debug}
+        - { vram: 0x00324EC0, type: .bss, name: cs4/Seimei/src/Draw}
+        - { vram: 0x003254B0, type: .bss, name: cs4/Seimei/src/File}
+        - { vram: 0x003255B0, type: .bss, name: cs4/Seimei/src/Load}
+        - { vram: 0x003A5E10, type: .bss, name: cs4/Seimei/src/Main}
+        # - { vram: 0x003A5E40, type: .bss, name: cs4/Seimei/src/Model} # maybe MathUtil?
+        - { vram: 0x003A5E50, type: .bss, name: cs4/Seimei/src/Model}
+        - { vram: 0x006F51D0, type: .bss, name: cs4/Seimei/src/Pad}
+        - { vram: 0x006F5390, type: .bss, name: cs4/Seimei/src/Sprite}
+        - { vram: 0x006F5690, type: .bss, name: cs4/Seimei/src/Tex}
+        - { vram: 0x007816A0, type: .bss, name: cs4/Seimei/src/Vram}
+        - { vram: 0x007816C0, type: .bss, name: cs4/Seimei/fslib/lib/fslibmc}
+        - { vram: 0x00781C00, type: .bss, name: cs4/Seimei/fslib/lib/fslibpa2}
+        - { vram: 0x00782A40, type: .bss, name: cs4/Seimei/fslib/lib/fslibsd}
+        - { vram: 0x00784040, type: .bss, name: cs4/Seimei/fslib/lib/fslibsdsynth}
+        - { vram: 0x00784BC0, type: .bss, name: cs4/Seimei/src/Memory}
+        - { vram: 0x00792BC0, type: .bss, name: cs4/Seimei/src/Map}
+        - { vram: 0x007938E0, type: .bss, name: cs4/Seimei/src/My}
+        - { vram: 0x008FA150, type: .bss, name: cs4/Seimei/src/Dss}
+        - { vram: 0x008FAAB0, type: .bss, name: cs4/Seimei/src/Damage}
+        - { vram: 0x008FC2B0, type: .bss, name: cs4/Seimei/src/Hmd}
+        - { vram: 0x008FC2C0, type: .bss, name: cs4/Seimei/src/Binder}
+        - { vram: 0x00969A50, type: .bss, name: cs4/Seimei/src/Ene}
+        - { vram: 0x00974D80, type: .bss, name: cs4/Seimei/src/PointLight}
+        - { vram: 0x009750C0, type: .bss, name: cs4/Seimei/lib/libaio}
+        - { vram: 0x009782F0, type: .bss, name: cs4/Seimei/lib/Shadow}
+        - { vram: 0x009783C0, type: .bss, name: cs4/Seimei/src/DepthAlpha}
+        - { vram: 0x009B43C0, type: .bss, name: cs4/Seimei/src/Rta}
+        - { vram: 0x009B5120, type: .bss, name: cs4/Seimei/src/Script}
+        - { vram: 0x009B5220, type: .bss, name: cs4/Seimei/fslib/lib/fslibscr}
+        - { vram: 0x009C8CE0, type: .bss, name: cs4/Seimei/src/EneDamage}
+        - { vram: 0x009C8E50, type: .bss, name: cs4/Seimei/fslib/lib/FsFont}
+        - { vram: 0x009C8FB0, type: .bss, name: cs4/Seimei/fslib/lib/FsFontDraw}
+        - { vram: 0x009EE7B0, type: .bss, name: cs4/Seimei/src/Font}
+        - { vram: 0x009EF000, type: .bss, name: cs4/Seimei/src/Dizzy}
+        - { vram: 0x00A00780, type: .bss, name: cs4/Seimei/src/Drama}
+        - { vram: 0x00A00910, type: .bss, name: cs4/Seimei/src/Msg}
+        - { vram: 0x00A00A10, type: .bss, name: cs4/Seimei/src/KuonMsg}
+        # - { vram: 0x00A00C70, type: .bss, name: cs4/Seimei/src/KuonMsg} # has g_TmpMenuMng, mayyybe part of List or Util?
+        - { vram: 0x00A00CB0, type: .bss, name: cs4/Seimei/src/Object}
+        - { vram: 0x00A00FC0, type: .bss, name: cs4/Seimei/src/Fade}
+        - { vram: 0x00A00FF0, type: .bss, name: cs4/Seimei/src/Blast}
+        - { vram: 0x00A010F0, type: .bss, name: cs4/Seimei/src/Light}
+        - { vram: 0x00A01200, type: .bss, name: cs4/Seimei/src/Cdvd}
+        - { vram: 0x00A15E00, type: .bss, name: cs4/Seimei/src/Filter}
+        - { vram: 0x00A2B690, type: .bss, name: cs4/Seimei/src/DrawOT}
+        - { vram: 0x00A2F6B0, type: .bss, name: cs4/Seimei/src/ItemMng}
+        - { vram: 0x00A33060, type: .bss, name: cs4/Seimei/src/Title}
+        - { vram: 0x00A330B0, type: .bss, name: cs4/Seimei/src/Peep}
+        - { vram: 0x00A330C0, type: .bss, name: cs4/Seimei/src/EtcEvent}
+        - { vram: 0x00A33110, type: .bss, name: cs4/Seimei/src/FrontEnd/FrontEnd_Card}
+        - { vram: 0x00A332A0, type: .bss, name: cs4/Seimei/src/Movie}
+        - { vram: 0x00A332F0, type: .bss, name: unklib_00195CA0}
+        - { vram: 0x00A33330, type: .bss, name: cs4/Seimei/src/MemoryCard}
+        - { vram: 0x00A33980, type: .bss, name: cs4/Seimei/src/MultiStm}
+        - { vram: 0x00A341A0, type: .bss, name: unklib_0019E160}
+        - { vram: 0x00A37090, type: .bss, name: cs4/Seimei/src/Mirror}
+        - { vram: 0x00A37EF0, type: .bss, name: cs4/Seimei/src/Riddle}
+        - { vram: 0x00A38070, type: .bss, name: cs4/Seimei/src/MovePath}
+        - { vram: 0x00A3A270, type: .bss, name: cs4/Seimei/src/TexEffect}
+        - { vram: 0x00A3C890, type: .bss, name: cs4/Seimei/src/Sound/Snd}
+        - { vram: 0x00A3EE40, type: .bss, name: cs4/Seimei/src/Sound/SndReverb}
+        - { vram: 0x00A3EE58, type: .bss, name: cs4/Seimei/src/Sound/SndSq}
+        - { vram: 0x00A3EE70, type: .bss, name: cs4/Seimei/src/Sound/SndVoice}
+        - { vram: 0x00A40480, type: .bss, name: cs4/Seimei/src/Sound/VagStm}
+        - { vram: 0x00A40960, type: .bss, name: cs4/Seimei/src/sfx/PtclMng}
+        - { vram: 0x00A40DA0, type: .bss, name: cs4/Seimei/src/sfx/Sfx}
+        - { vram: 0x00A415B0, type: .bss, name: cs4/Seimei/src/sfx/SfxCommon}
+        - { vram: 0x00A42B80, type: .bss, name: cs4/Seimei/src/sfx/SfxDebug_TmrGraph}
+        - { vram: 0x00A42BE0, type: .bss, name: cs4/Seimei/src/sfx/SfxDomanString}
+        - { vram: 0x00A42C80, type: .bss, name: cs4/Seimei/src/sfx/SfxDraw}
+        - { vram: 0x00A42CA0, type: .bss, name: cs4/Seimei/src/sfx/SfxFlicker}
+        - { vram: 0x00A43270, type: .bss, name: cs4/Seimei/src/sfx/SfxMng}
+        - { vram: 0x00A456B0, type: .bss, name: cs4/Seimei/src/sfx/SfxModel}
+        - { vram: 0x00A45AB0, type: .bss, name: cs4/Seimei/src/sfx/SfxPLight}
+        - { vram: 0x00A45EB0, type: .bss, name: cs4/Seimei/src/sfx/SfxPostEffect}
+        - { vram: 0x00A45EC0, type: .bss, name: cs4/Seimei/src/sfx/SfxTracer}
+        - { vram: 0x00A48AC0, type: .bss, name: cs4/Seimei/src/menu/KnMenuModel}
+        - { vram: 0x00A48D00, type: .bss, name: cs4/Seimei/src/menu/KnMenuWind}
+        - { vram: 0x00A48D30, type: .bss, name: cs4/Seimei/src/menu/KuonMenu}
+        - { vram: 0x00A48E00, type: .bss, name: cs4/Seimei/src/menu/menu_util}
+        - { vram: 0x00A4ABB0, type: .bss, name: cs4/Seimei/src/menu/MenuCtrl}
+        - { vram: 0x00A4ABD0, type: .bss, name: cs4/Seimei/src/menu/MenuItem}
+        - { vram: 0x00A4AED0, type: .bss, name: cs4/Seimei/src/MiniGame/MGAnime}
+        - { vram: 0x00A4B970, type: .bss, name: cs4/Seimei/src/MiniGame/MGInit} # could also be cs4/Seimei/src/MiniGame/MiniGame
+        - { vram: 0x00A4B9E0, type: .bss, name: cs4/Seimei/src/MiniGame/MiniGame}
+        - { vram: 0x00A51020, type: .bss, name: cs4/Seimei/src/sfx/SfxBugs}
+        - { vram: 0x00A58820, type: .bss, name: cs4/Seimei/src/sfx/SfxFog}
+        - { vram: 0x00A58CC0, type: .bss, name: cs4/Seimei/fslib/lib/fsspummng}
+        - { vram: 0x00A58E50, type: .bss, name: cs4/Seimei/src/Event}
+        - { vram: 0x00A5A110, type: .bss, name: cs4/Seimei/src/MiniGame/sgh/sgh}
+        - { vram: 0x00A5A120, type: .bss, name: cs4/Seimei/src/MiniGame/sgh/sghDice}
+        - { vram: 0x00A5A1E0, type: .bss, name: cs4/Seimei/src/MiniGame/sgh/sghEneThk}
+        - { vram: 0x00A5A2A0, type: .bss, name: cs4/Seimei/src/MiniGame/sgh/sghKoma}
+        - { vram: 0x00A5A8A0, type: .bss, name: cs4/Seimei/src/MiniGame/sgh/sghMap}
+        - { vram: 0x00A5AA70, type: .bss, name: cs4/Seimei/src/MiniGame/sgh/sghPad}
+        - { vram: 0x00A5AAC0, type: .bss, name: cs4/Seimei/src/menu/MenuTD}
+        - { vram: 0x00A5B060, type: .bss, name: unklib_00215AF0}
 
     - [0x157900]
