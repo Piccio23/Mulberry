@@ -280,7 +280,7 @@ def build_stuff(
     ninja.rule(
         "elf",
         description="elf $out",
-        command=f"{CROSS}objcopy $in $out -O binary && python3 {ROOT}/tools/python/fix_bin_matching.py {language} $out",
+        command=f"{CROSS}objcopy $in $out -O binary",
     )
 
     for entry in linker_entries:
