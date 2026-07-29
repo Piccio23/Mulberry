@@ -67,10 +67,14 @@ python3 -m pip install -r requirements.txt
 ### Copy assets from game DVD/ISO
 The main executable is needed in order to perform the decompilation.
 
-#### JP
+#### Build Instructions
+To do a basic build run
 ```bash
-make jp-clean
+make clean
+make configure
+make build
 ```
+In that order to ensure a clean building environment each time
 
 ### Command Help
 To have a list all available commands, run `make` without targets:
