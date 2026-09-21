@@ -18,4 +18,9 @@ void SetCamEnv(CAMINFO * CAMINFO, int Index);
 CAMINFO * GetGameCamInfo();
 void InitCamera();
 
+void SetCamCtrlMode(u_int mode);
+
+void SetCameraPos(float* pos);
+void SetCameraAng(float* ang);
+
 #endif // CAMERA_H
