@@ -11,9 +11,9 @@ typedef struct _EVENT {
     void (* InitFunc)(); // offset 0x0, size 0x4
     void (* PlayFunc)(); // offset 0x4, size 0x4
     void (* ActiFunc)(); // offset 0x8, size 0x4
-    int State[10] __attribute__ ((aligned(16))); // offset 0xC, size 0x28
+    int State[10]; // offset 0xC, size 0x28
     MDLMNG* lpMdl[10]; // offset 0x34, size 0x28
-} EVENT;
+}__attribute__ ((aligned(16))) EVENT;
 
 void SetEventModelDrawAndHit(MDLMNG* lpMdl, u_char OnOff);
 void EventEneHitCheck(MDLMNG* lpEne);
